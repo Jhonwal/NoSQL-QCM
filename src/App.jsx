@@ -19,6 +19,15 @@ const App = () => {
   const [showResults, setShowResults] = useState(false);
   const [timeLeft, setTimeLeft] = useState(30);
 
+  // Shuffle function
+  const shuffleQuestions = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+    return array;
+  };
+
   useEffect(() => {
     fetch("/filtered_questions2.json")
       .then((response) => {
@@ -28,8 +37,10 @@ const App = () => {
         return response.json();
       })
       .then((data) => {
-        setQuestions(data);
-        setUserAnswers(new Array(data.length).fill(''));
+        // Shuffle the questions array before setting state
+        const shuffledQuestions = shuffleQuestions(data);
+        setQuestions(shuffledQuestions);
+        setUserAnswers(new Array(shuffledQuestions.length).fill(''));
         setLoading(false);
       })
       .catch((error) => {
@@ -263,15 +274,11 @@ const App = () => {
                 <Button
                   key={index}
                   variant={userAnswers[currentQuestion] === choice ? "default" : "outline"}
-                  className={`w-full text-left justify-start p-4 rounded-lg transition-all ${
+                  className={`w-full text-left justify-start  text-wrap rounded-lg transition-all ${
                     userAnswers[currentQuestion] === choice 
-                      ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white transform scale-102'
+                      ? 'bg-gradient-to-r from-blue-500 to-purple-500 p-[auto] text-white transform scale-102'
                       : 'hover:border-blue-500 hover:text-blue-500'
                   }`}
-                  style={{
-                    whiteSpace: 'normal',  // Allow the text to break into multiple lines
-                    wordWrap: 'break-word', // Ensure long words break into the next line
-                  }}
                   onClick={() => handleAnswer(choice)}
                 >
                   {choice}
