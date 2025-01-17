@@ -1,4 +1,475 @@
 [
+        {
+            "question": "Qu’est-ce qu’une base de données NoSQL ?",
+            "choix": [
+                "A. Une base de données relationnelle",
+                "B. Une base de données qui utilise des documents, des colonnes, des graphes ou des clés-valeurs",
+                "C. Une base de données qui ne supporte pas les requêtes SQL",
+                "D. Une base de données exclusivement orientée graphes"
+            ],
+            "reponse": "B"
+        },
+        {
+            "question": "Citez les quatre grandes familles de bases NoSQL.",
+            "choix": [
+                "A. Relationnelle, Orientée colonnes, Documentaire, Clés-valeurs",
+                "B. Documentaire, Orientée graphes, Orientée colonnes, Clés-valeurs",
+                "C. Clés-valeurs, Documentaire, Orientée fichiers, Relationnelle",
+                "D. Orientée graphes, Clés-valeurs, Orientée relationnelle, Documentaire"
+            ],
+            "reponse": "B"
+        },
+        {
+            "question": "Quel est le rôle du théorème de CAP dans les bases de données distribuées ?",
+            "choix": [
+                "A. Garantir la scalabilité des bases",
+                "B. Définir les compromis entre Cohérence, Disponibilité et Tolérance aux partitions",
+                "C. Améliorer la sécurité des bases",
+                "D. Optimiser la réplication des données"
+            ],
+            "reponse": "B"
+        },
+        {
+            "question": "Quelle est la différence entre une base orientée colonnes et une base documentaire ?",
+            "choix": [
+                "A. Une base orientée colonnes stocke des documents, tandis qu’une base documentaire utilise des colonnes",
+                "B. Une base orientée colonnes organise les données par colonnes, tandis qu’une base documentaire stocke des données au format JSON ou BSON",
+                "C. Les deux utilisent des relations entre données",
+                "D. Aucune différence notable"
+            ],
+            "reponse": "B"
+        },
+        {
+            "question": "Quelles sont les principales propriétés du modèle BASE dans les bases de données NoSQL ?",
+            "choix": [
+                "A. Atomicité, Cohérence, Isolation, Durabilité",
+                "B. Scalabilité, Cohérence, Disponibilité",
+                "C. Basic Availability, Soft-state, Eventual consistency",
+                "D. Sécurité, Disponibilité, Cohérence"
+            ],
+            "reponse": "C"
+        },
+        {
+            "question": "Décrivez le fonctionnement d’un keyspace dans Cassandra.",
+            "choix": [
+                "A. C’est une table contenant des index",
+                "B. C’est une base de données relationnelle",
+                "C. C’est un conteneur logique pour les tables, permettant de définir les stratégies de réplication",
+                "D. C’est un protocole de communication entre nœuds"
+            ],
+            "reponse": "C"
+        },
+        {
+            "question": "Quels types de données sont pris en charge par Redis ?",
+            "choix": [
+                "A. Chaines de caractères, Listes, Hashes, Sets, Sorted Sets",
+                "B. Graphes, Colonnes, JSON, BSON",
+                "C. Documents uniquement",
+                "D. Tables relationnelles"
+            ],
+            "reponse": "A"
+        },
+        {
+            "question": "Comment Neo4j représente-t-il les données sous forme de graphe ?",
+            "choix": [
+                "A. Sous forme de tableaux",
+                "B. En utilisant des nœuds et des relations entre nœuds",
+                "C. En stockant les données dans des colonnes",
+                "D. En utilisant des clés-valeurs uniquement"
+            ],
+            "reponse": "B"
+        },
+        {
+            "question": "Quelles sont les principales différences entre le sharding et la réplication dans MongoDB ?",
+            "choix": [
+                "A. Le sharding duplique les données, la réplication les divise",
+                "B. Le sharding divise les données entre différents nœuds, la réplication duplique les données sur plusieurs nœuds",
+                "C. Les deux ont la même fonction",
+                "D. Le sharding est utilisé pour les sauvegardes, la réplication pour les performances"
+            ],
+            "reponse": "B"
+        },
+        {
+            "question": "Pourquoi Redis est souvent utilisé comme système de cache ?",
+            "choix": [
+                "A. Pour sa capacité à stocker des documents volumineux",
+                "B. Pour sa rapidité et sa gestion en mémoire",
+                "C. Pour sa compatibilité avec les bases relationnelles",
+                "D. Pour son support des bases orientées graphes"
+            ],
+            "reponse": "B"
+        },
+        {
+            "question": "Citez deux cas d’usage typiques de Neo4j.",
+            "choix": [
+                "A. Analyse des réseaux sociaux et recommandations personnalisées",
+                "B. Stockage des données relationnelles et sauvegarde de fichiers",
+                "C. Optimisation des transactions bancaires et stockage de logs",
+                "D. Analyse statistique et gestion de cache"
+            ],
+            "reponse": "A"
+        },
+        {
+            "question": "Quel format de données utilise MongoDB pour stocker les documents ?",
+            "choix": [
+                "A. XML",
+                "B. JSON",
+                "C. BSON",
+                "D. CSV"
+            ],
+            "reponse": "C"
+    },
+    {
+        "question": "Dans Redis, comment créez-vous une clé contenant trois produits pour un panier d'achat nommé panier:123 ?",
+        "choix": [
+            "A. SET panier:123 produit1 produit2 produit3",
+            "B. RPUSH panier:123 produit1 produit2 produit3",
+            "C. HMSET panier:123 produit1 produit2 produit3",
+            "D. SADD panier:123 produit1 produit2 produit3"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment ajoutez-vous un produit supplémentaire à une liste existante dans Redis ?",
+        "choix": [
+            "A. LPUSH panier:123 produit4",
+            "B. SADD panier:123 produit4",
+            "C. RPUSH panier:123 produit4",
+            "D. APPEND panier:123 produit4"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Comment supprimez-vous le premier produit d’une liste dans Redis ?",
+        "choix": [
+            "A. DEL panier:123 produit1",
+            "B. LPOP panier:123",
+            "C. RPOP panier:123",
+            "D. REMOVE panier:123 produit1"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment récupérez-vous tous les produits restants dans une liste dans Redis ?",
+        "choix": [
+            "A. GET panier:123",
+            "B. LINDEX panier:123 ALL",
+            "C. HGETALL panier:123",
+            "D. LRANGE panier:123 0 -1"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment définissez-vous une expiration de 30 minutes pour une clé dans Redis ?",
+        "choix": [
+            "A. EXPIRE panier:123 30",
+            "B. TTL panier:123 1800",
+            "C. EXPIRE panier:123 1800",
+            "D. SETEX panier:123 30"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Comment créez-vous une table orders dans Cassandra avec les colonnes order_id, client_id, produit, quantite, et date ?",
+        "choix": [
+            "A. CREATE orders (order_id PRIMARY KEY, client_id, produit, quantite, date);",
+            "B. CREATE TABLE orders (order_id PRIMARY KEY, client_id text, produit text, quantite int, date timestamp);",
+            "C. CREATE orders (order_id int PRIMARY KEY, client_id text, produit text, quantite int, date timestamp);",
+            "D. CREATE TABLE orders (order_id int, client_id, produit, quantite, date);"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment insérez-vous une commande dans la table orders dans Cassandra ?",
+        "choix": [
+            "A. ADD INTO orders (order_id, client_id, produit, quantite, date) VALUES (1, '123', 'ProduitA', 2, '2025-01-17');",
+            "B. INSERT INTO orders (order_id, client_id, produit, quantite, date) VALUES (1, '123', 'ProduitA', 2, '2025-01-17');",
+            "C. PUT INTO orders (order_id, client_id, produit, quantite, date) VALUES (1, '123', 'ProduitA', 2, '2025-01-17');",
+            "D. INSERT orders (order_id, client_id, produit, quantite, date) VALUES (1, '123', 'ProduitA', 2, '2025-01-17');"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment recherchez-vous toutes les commandes passées par un client donné dans Cassandra ?",
+        "choix": [
+            "A. SELECT * FROM orders WHERE client_id = '123';",
+            "B. SELECT ALL FROM orders BY client_id = '123';",
+            "C. FIND * IN orders WHERE client_id = '123';",
+            "D. SELECT orders WHERE client_id = '123';"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment mettez-vous à jour la quantité d’une commande dans Cassandra ?",
+        "choix": [
+            "A. UPDATE orders SET quantite = 5 WHERE order_id = 1;",
+            "B. MODIFY orders SET quantite = 5 WHERE order_id = 1;",
+            "C. ALTER orders SET quantite = 5 WHERE order_id = 1;",
+            "D. CHANGE orders quantite TO 5 WHERE order_id = 1;"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment supprimez-vous une commande dans Cassandra ?",
+        "choix": [
+            "A. DELETE FROM orders WHERE order_id = 1;",
+            "B. DROP FROM orders WHERE order_id = 1;",
+            "C. REMOVE FROM orders WHERE order_id = 1;",
+            "D. DEL FROM orders WHERE order_id = 1;"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Qu’est-ce qu’une base de données clé-valeur ?",
+        "choix": [
+            "A. Une base qui stocke des relations entre les entités",
+            "B. Une base qui utilise des clés uniques pour associer des valeurs",
+            "C. Une base qui utilise des colonnes pour organiser les données",
+            "D. Une base qui stocke les données sous forme de documents JSON"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quels sont les avantages des bases de données NoSQL par rapport aux bases relationnelles ?",
+        "choix": [
+            "A. Flexibilité du schéma, scalabilité horizontale, et meilleure performance pour les grands volumes de données",
+            "B. Structure fixe des données, scalabilité verticale, et intégrité stricte des transactions",
+            "C. Meilleure intégration avec SQL, stockage relationnel et scalabilité limitée",
+            "D. Aucune différence notable avec les bases relationnelles"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Expliquez la notion de sharding et son importance dans les bases de données distribuées.",
+        "choix": [
+            "A. Le sharding regroupe toutes les données sur un seul serveur pour optimiser les performances",
+            "B. Le sharding divise les données en fragments pour les distribuer sur plusieurs serveurs",
+            "C. Le sharding garantit la cohérence des données dans un système distribué",
+            "D. Le sharding est utilisé uniquement pour les sauvegardes de bases de données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle des index dans MongoDB et leur impact sur les performances ?",
+        "choix": [
+            "A. Les index accélèrent les requêtes en réduisant le nombre de documents à analyser",
+            "B. Les index garantissent la cohérence des données dans MongoDB",
+            "C. Les index permettent d’ajouter de nouvelles colonnes aux documents",
+            "D. Les index remplacent les clés primaires dans MongoDB"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment Neo4j modélise-t-il une relation entre deux entités ?",
+        "choix": [
+            "A. En utilisant un tableau pour stocker les relations",
+            "B. En reliant deux nœuds par une relation dirigée et étiquetée",
+            "C. En associant deux clés-valeurs dans un index",
+            "D. En reliant des colonnes d’une table par une clé étrangère"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelles sont les différences entre les modèles ACID et BASE ?",
+        "choix": [
+            "A. ACID garantit la cohérence stricte, BASE favorise une cohérence éventuelle",
+            "B. ACID ne permet pas les transactions, BASE les supporte pleinement",
+            "C. ACID est adapté aux bases NoSQL, BASE aux bases relationnelles",
+            "D. ACID et BASE ont des principes identiques"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de la commande createKeyspace dans Cassandra ?",
+        "choix": [
+            "A. Créer une table pour stocker les données",
+            "B. Créer un conteneur logique pour organiser les tables et définir des stratégies de réplication",
+            "C. Créer un index pour améliorer les performances des requêtes",
+            "D. Créer une clé primaire pour une table spécifique"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Dans quel cas l’utilisation de Redis est-elle préférable à une base relationnelle ?",
+        "choix": [
+            "A. Lorsqu’un schéma rigide est nécessaire",
+            "B. Pour la gestion de sessions ou de caches en temps réel",
+            "C. Pour gérer des relations complexes entre entités",
+            "D. Pour stocker des données volumineuses sur disque"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Qu’est-ce qu’une collection dans MongoDB ?",
+        "choix": [
+            "A. Un groupe de documents JSON stockés dans la base de données",
+            "B. Une table qui contient uniquement des clés-valeurs",
+            "C. Une structure utilisée pour indexer les données",
+            "D. Un regroupement de bases de données"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Pourquoi Neo4j est particulièrement adapté aux réseaux sociaux ?",
+        "choix": [
+            "A. Pour sa capacité à stocker des données relationnelles dans des colonnes",
+            "B. Pour sa scalabilité limitée et son modèle basé sur les documents",
+            "C. Pour sa capacité à gérer des relations complexes entre utilisateurs avec un accès rapide",
+            "D. Pour son utilisation exclusive dans les bases relationnelles"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelles sont les principales caractéristiques des bases de données NoSQL ?",
+        "choix": [
+            "A. Flexibilité du schéma et scalabilité horizontale",
+            "B. Support exclusif des transactions complexes",
+            "C. Structure rigide des données",
+            "D. Modèle de données basé uniquement sur les relations"
+        ],
+        "reponse": "A"
+    },
+        {
+            "question": "Comment Redis assure-t-il la persistance des données ?",
+            "choix": [
+                "A. En utilisant des snapshots périodiques (RDB)",
+                "B. Par une réplication automatique des données pour assurer la haute disponibilité (mais pas directement pour la persistance)",
+                "C. En journalisant les écritures avec AOF (Append-Only File)",
+                "D. Toutes les réponses ci-dessus sont correctes"
+            ],
+            "reponse": ["A", "C", "D"]
+        },
+        
+    {
+        "question": "Quels sont les avantages du sharding dans MongoDB ?",
+        "choix": [
+            "A. Meilleure tolérance aux pannes grâce à des répliques multiples",
+            "B. Distribution des données pour améliorer les performances",
+            "C. Cohérence stricte des transactions",
+            "D. Compression des données pour réduire la taille de stockage"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment Neo4j gère-t-il les nœuds et les relations ?",
+        "choix": [
+            "A. En utilisant un modèle de graphe avec des nœuds reliés par des relations dirigées et étiquetées",
+            "B. En structurant les données sous forme de documents JSON",
+            "C. En stockant les nœuds comme des lignes dans une table",
+            "D. En liant les relations par des clés étrangères"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quels sont les cas d’usage typiques des bases orientées colonnes comme Cassandra ?",
+        "choix": [
+            "A. Analyse des journaux (logs) à grande échelle",
+            "B. Gestion des relations complexes entre les entités",
+            "C. Création de réseaux sociaux",
+            "D. Stockage de fichiers volumineux"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quels types de données peut-on stocker dans MongoDB ?",
+        "choix": [
+            "A. Documents JSON ou BSON",
+            "B. Données relationnelles avec clés primaires",
+            "C. Index et transactions uniquement",
+            "D. Objets graphiques et relations dirigées"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment Cassandra garantit-elle la tolérance aux pannes dans un cluster ?",
+        "choix": [
+            "A. Réplication des données sur plusieurs nœuds",
+            "B. Utilisation d'un seul serveur maître pour la cohérence",
+            "C. Compression des données pour les sauvegardes rapides",
+            "D. Stockage des journaux sur un nœud dédié"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelles sont les différences entre une base clé-valeur et une base orientée graphe ?",
+        "choix": [
+            "A. Une base clé-valeur gère des relations complexes, une base graphe non",
+            "B. Une base clé-valeur associe une clé unique à une valeur, une base graphe gère des relations entre entités",
+            "C. Les deux sont utilisées uniquement pour des données structurées",
+            "D. Une base graphe est moins performante pour les relations complexes"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Donnez un cas d’usage où l’utilisation de Neo4j serait préférable à une base documentaire comme MongoDB.",
+        "choix": [
+            "A. Analyse des relations sociales entre utilisateurs",
+            "B. Stockage de documents non structurés",
+            "C. Gestion de données transactionnelles",
+            "D. Traitement des fichiers volumineux"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Qu’est-ce qu’un keyspace dans Cassandra et comment est-il utilisé ?",
+        "choix": [
+            "A. Un conteneur logique regroupant des tables et définissant des stratégies de réplication",
+            "B. Une colonne spécifique dans une table Cassandra",
+            "C. Un index utilisé pour accélérer les requêtes",
+            "D. Un espace réservé aux transactions ACID"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment créer une clé liste dans Redis pour un service de streaming ?",
+        "choix": [
+            "A. SET videos:recentes video1 video2 video3",
+            "B. RPUSH videos:recentes video1 video2 video3",
+            "C. HMSET videos:recentes video1 video2 video3",
+            "D. SADD videos:recentes video1 video2 video3"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment supprimer la dernière vidéo d'une liste dans Redis ?",
+        "choix": [
+            "A. LPOP videos:recentes",
+            "B. RPOP videos:recentes",
+            "C. DEL videos:recentes video3",
+            "D. REMOVE videos:recentes"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment définir une expiration de 1 heure pour une clé dans Redis ?",
+        "choix": [
+            "A. EXPIRE videos:recentes 60",
+            "B. SETEX videos:recentes 60",
+            "C. EXPIRE videos:recentes 3600",
+            "D. TTL videos:recentes 3600"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Comment créer une table produits dans Cassandra ?",
+        "choix": [
+            "A. CREATE TABLE produits (id_produit PRIMARY KEY, nom_produit, categorie, prix);",
+            "B. CREATE produits (id_produit PRIMARY KEY, nom_produit text, categorie text, prix decimal);",
+            "C. CREATE TABLE produits (id_produit int PRIMARY KEY, nom_produit text, categorie text, prix decimal);",
+            "D. CREATE TABLE produits (id_produit int, nom_produit text, categorie text, prix decimal);"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Comment insérer des produits dans la table produits de Cassandra ?",
+        "choix": [
+            "A. ADD INTO produits VALUES (1, 'Produit1', 'Catégorie1', 100.00);",
+            "B. PUT produits (1, 'Produit1', 'Catégorie1', 100.00);",
+            "C. INSERT INTO produits (id_produit, nom_produit, categorie, prix) VALUES (1, 'Produit1', 'Catégorie1', 100.00);",
+            "D. SET produits VALUES (1, 'Produit1', 'Catégorie1', 100.00);"
+        ],
+        "reponse": "C"
+    },
     {
         "question": "Qu'est-ce que NoSQL ?",
         "choix": [

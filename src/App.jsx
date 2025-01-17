@@ -268,6 +268,10 @@ const App = () => {
                       ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white transform scale-102'
                       : 'hover:border-blue-500 hover:text-blue-500'
                   }`}
+                  style={{
+                    whiteSpace: 'normal',  // Allow the text to break into multiple lines
+                    wordWrap: 'break-word', // Ensure long words break into the next line
+                  }}
                   onClick={() => handleAnswer(choice)}
                 >
                   {choice}
@@ -295,6 +299,7 @@ const App = () => {
       </div>
     </div>
   );
+  
   
 };
 
