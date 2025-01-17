@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
-import { Loader2, Clock, Check, X } from 'lucide-react';
+import { Loader2, Clock, Check, X, Brain, Database } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
@@ -11,25 +11,47 @@ import {
 } from "@/components/ui/accordion";
 
 const App = () => {
+  const [quizType, setQuizType] = useState(null);
   const [questions, setQuestions] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
   const [showResults, setShowResults] = useState(false);
   const [timeLeft, setTimeLeft] = useState(30);
 
-  // Shuffle function
+  const quizOptions = [
+    {
+      id: 'ml',
+      title: 'Machine Learning',
+      description: 'Test your knowledge in Machine Learning concepts and applications',
+      icon: Brain,
+      file: 'ml_qcm.json',
+      gradient: 'from-blue-500 to-purple-500'
+    },
+    {
+      id: 'nosql',
+      title: 'NoSQL Databases',
+      description: 'Challenge yourself with NoSQL database concepts and best practices',
+      icon: Database,
+      file: 'nosql_qcm.json',
+      gradient: 'from-green-500 to-teal-500'
+    }
+  ];
+
   const shuffleQuestions = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+      [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
   };
 
   useEffect(() => {
-    fetch("/filtered_questions2.json")
+    if (!quizType) return;
+
+    setLoading(true);
+    fetch(`/${quizType.file}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Erreur lors du chargement des questions");
@@ -37,7 +59,6 @@ const App = () => {
         return response.json();
       })
       .then((data) => {
-        // Shuffle the questions array before setting state
         const shuffledQuestions = shuffleQuestions(data);
         setQuestions(shuffledQuestions);
         setUserAnswers(new Array(shuffledQuestions.length).fill(''));
@@ -47,10 +68,10 @@ const App = () => {
         setError(error.message);
         setLoading(false);
       });
-  }, []);
+  }, [quizType]);
 
   useEffect(() => {
-    if (loading || showResults) return;
+    if (loading || showResults || !quizType) return;
 
     const timer = setInterval(() => {
       setTimeLeft((prev) => {
@@ -68,7 +89,7 @@ const App = () => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [currentQuestion, loading, showResults, questions.length]);
+  }, [currentQuestion, loading, showResults, questions.length, quizType]);
 
   useEffect(() => {
     setTimeLeft(30);
@@ -111,11 +132,57 @@ const App = () => {
     return question.choix.find(choice => choice.startsWith(letter)) || letter;
   };
 
+  const resetQuiz = () => {
+    setQuizType(null);
+    setQuestions([]);
+    setCurrentQuestion(0);
+    setUserAnswers([]);
+    setShowResults(false);
+    setTimeLeft(30);
+  };
+
+  if (!quizType) {
+    return (
+      <div className="flex items-center justify-center w-screen min-h-screen bg-gray-50 p-4">
+        <div className="w-full max-w-4xl space-y-8">
+          <div className="text-center space-y-4">
+            <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Choisissez votre Quiz
+            </h1>
+            <p className="text-gray-600 text-lg">
+              Sélectionnez un sujet pour commencer le challenge
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {quizOptions.map((option) => (
+              <Card 
+                key={option.id}
+                className="overflow-hidden transform hover:scale-105 transition-all duration-300 cursor-pointer shadow-lg hover:shadow-xl"
+                onClick={() => setQuizType(option)}
+              >
+                <div className={`bg-gradient-to-r ${option.gradient} p-6 text-white`}>
+                  <div className="flex items-center gap-4">
+                    <option.icon className="w-8 h-8" />
+                    <h2 className="text-2xl font-bold">{option.title}</h2>
+                  </div>
+                </div>
+                <CardContent className="p-6">
+                  <p className="text-gray-600">{option.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (loading) {
     return (
       <div className="flex items-center justify-center w-screen h-screen">
         <Loader2 className="w-8 h-8 animate-spin text-primary" />
-        <p className="ml-2 text-lg">Chargement du quiz...</p>
+        <p className="ml-2 text-lg">Chargement du quiz {quizType.title}...</p>
       </div>
     );
   }
@@ -128,10 +195,10 @@ const App = () => {
             <h2 className="text-xl font-bold text-red-600 mb-2">Erreur</h2>
             <p className="text-red-500">{error}</p>
             <Button 
-              onClick={() => window.location.reload()} 
+              onClick={resetQuiz}
               className="mt-4 bg-red-600 hover:bg-red-700"
             >
-              Réessayer
+              Retour à la sélection
             </Button>
           </CardContent>
         </Card>
@@ -153,8 +220,11 @@ const App = () => {
     return (
       <div className="flex items-center justify-center w-[98vw] min-h-screen overflow-y-hidden bg-gray-50">
         <Card className="w-full max-w-3xl shadow-xl transform hover:scale-102 transition-transform my-8">
-          <CardHeader className="text-center bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-t-lg p-6">
-            <h2 className="text-3xl font-bold">Résultats du Quiz</h2>
+          <CardHeader className={`text-center bg-gradient-to-r ${quizType.gradient} text-white rounded-t-lg p-6`}>
+            <div className="flex items-center justify-center gap-4">
+              <quizType.icon className="w-8 h-8" />
+              <h2 className="text-3xl font-bold">{quizType.title} - Résultats</h2>
+            </div>
           </CardHeader>
           <CardContent className="p-8">
             <div className="space-y-8">
@@ -169,6 +239,26 @@ const App = () => {
                 className="w-full h-6 rounded-full bg-gray-200"
               />
     
+              <div className="flex gap-4">
+                <Button
+                  onClick={resetQuiz}
+                  className="flex-1 bg-gray-500 hover:bg-gray-600 text-white"
+                >
+                  Changer de Quiz
+                </Button>
+                <Button 
+                  onClick={() => {
+                    setShowResults(false);
+                    setCurrentQuestion(0);
+                    setUserAnswers(new Array(questions.length).fill(''));
+                    setTimeLeft(30);
+                  }}
+                  className={`flex-1 bg-gradient-to-r ${quizType.gradient} text-white`}
+                >
+                  Recommencer
+                </Button>
+              </div>
+
               <div className="mt-8">
                 <h3 className="text-xl font-semibold mb-6 text-gray-700 px-2">Révision des réponses:</h3>
                 <Accordion collapsible className="w-full space-y-2">
@@ -190,7 +280,7 @@ const App = () => {
                             )}
                           </div>
                           <div className="flex-1 text-left">
-                            <span className="font-semibold text-[#00FFFF]">Question {index + 1}</span>
+                            <span className="font-semibold text-white">Question {index + 1}</span>
                           </div>
                         </div>
                       </AccordionTrigger>
@@ -220,35 +310,22 @@ const App = () => {
                   ))}
                 </Accordion>
               </div>
-              
-              <div className="mt-8 text-center">
-                <Button 
-                  onClick={() => {
-                    setShowResults(false);
-                    setCurrentQuestion(0);
-                    setUserAnswers(new Array(questions.length).fill(''));
-                    setTimeLeft(30);
-                  }}
-                  className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
-                    text-white px-8 py-3 rounded-full transform hover:scale-105 transition-all shadow-md"
-                >
-                  Recommencer le Quiz
-                </Button>
-              </div>
             </div>
           </CardContent>
         </Card>
       </div>
     );
-    
   }
 
   return (
     <div className="flex items-center justify-center w-screen h-screen p-4 relative">
       <Card className="w-full max-w-2xl shadow-lg">
-        <CardHeader className="bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-t-lg">
+        <CardHeader className={`bg-gradient-to-r ${quizType.gradient} text-white rounded-t-lg`}>
           <div className="flex justify-between items-center">
-            <h2 className="text-2xl font-bold">Question {currentQuestion + 1}/{questions.length}</h2>
+            <div className="flex items-center gap-4">
+              <quizType.icon className="w-6 h-6" />
+              <h2 className="text-2xl font-bold">{quizType.title}</h2>
+            </div>
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2 bg-white/20 px-3 py-1 rounded-full">
                 <Clock className="w-4 h-4" />
@@ -274,9 +351,9 @@ const App = () => {
                 <Button
                   key={index}
                   variant={userAnswers[currentQuestion] === choice ? "default" : "outline"}
-                  className={`w-full text-left justify-start  text-wrap rounded-lg transition-all ${
+                  className={`w-full text-left justify-start text-wrap rounded-lg transition-all ${
                     userAnswers[currentQuestion] === choice 
-                      ? 'bg-gradient-to-r from-blue-500 to-purple-500 p-[auto] text-white transform scale-102'
+                      ? `bg-gradient-to-r ${quizType.gradient} text-white transform scale-102`
                       : 'hover:border-blue-500 hover:text-blue-500'
                   }`}
                   onClick={() => handleAnswer(choice)}
@@ -286,11 +363,18 @@ const App = () => {
               ))}
             </div>
   
-            <div className="flex justify-end mt-8">
+            <div className="flex justify-between mt-8">
+              <Button
+                onClick={resetQuiz}
+                variant="outline"
+                className="px-6 py-2 rounded-full"
+              >
+                Changer de Quiz
+              </Button>
               <Button
                 onClick={nextQuestion}
                 disabled={!userAnswers[currentQuestion]}
-                className="px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white"
+                className={`px-6 py-2 rounded-full bg-gradient-to-r ${quizType.gradient} text-white`}
               >
                 {currentQuestion === questions.length - 1 ? 'Voir les Résultats' : 'Question Suivante'}
               </Button>
@@ -301,13 +385,11 @@ const App = () => {
   
       {/* Watermark */}
       <div className="absolute bottom-4 left-1/2 transform-translate-x-1/2 text-gray-400 opacity-20 text-xl font-semibold flex">
-        <img src="/logo.png" alt="" className='w-12'/>
+        <img src="/logo.png" alt="" className="w-12"/>
         Waguer
       </div>
     </div>
   );
-  
-  
 };
 
 export default App;

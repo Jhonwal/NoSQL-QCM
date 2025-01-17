@@ -1,0 +1,1222 @@
+[
+    {
+        "question": "Quelle est la différence entre l'intelligence artificielle (IA) et le Machine Learning (ML) ?",
+        "choix": [
+            "A. L'IA utilise des règles explicites, le ML apprend par expérience.",
+            "B. Le ML est un sous-domaine de l'IA, et s'améliore grâce à des données.",
+            "C. L'IA est limitée aux machines physiques, tandis que le ML est abstrait.",
+            "D. Le ML s'applique uniquement à la reconnaissance d'image."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Qu'est-ce que l'apprentissage supervisé ?",
+        "choix": [
+            "A. Apprentissage basé sur des données étiquetées avec leurs sorties associées.",
+            "B. Apprentissage basé sur des données non-étiquetées.",
+            "C. Apprentissage basé sur des interactions avec un environnement.",
+            "D. Apprentissage uniquement à partir de règles explicites définies par un expert."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le but principal de l'apprentissage automatique (Machine Learning) ?",
+        "choix": [
+            "A. Mémoriser tous les exemples possibles.",
+            "B. Automatiser des tâches en extrayant des règles implicites à partir de données.",
+            "C. Construire des robots autonomes.",
+            "D. Développer des systèmes experts utilisant des règles fixes."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Qu'est-ce que la méthode des moindres carrés permet de faire ?",
+        "choix": [
+            "A. Minimiser la somme des écarts absolus entre prédictions et données réelles.",
+            "B. Maximiser les valeurs prédictives.",
+            "C. Minimiser la somme des écarts au carré entre prédictions et données réelles.",
+            "D. Trouver des relations non linéaires dans des données."
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quels sont les types principaux d'apprentissage automatique ?",
+        "choix": [
+            "A. Apprentissage supervisé, non-supervisé, et par renforcement.",
+            "B. Apprentissage profond, régression, et classification.",
+            "C. Apprentissage linéaire, clustering, et réseaux neuronaux.",
+            "D. Apprentissage probabiliste, supervisé, et par expérience."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Dans quel domaine l'apprentissage profond est-il le plus utilisé ?",
+        "choix": [
+            "A. Création de règles explicites pour les systèmes experts.",
+            "B. Réseaux de neurones appliqués à des problèmes complexes comme le traitement d'image.",
+            "C. Développement de bases de données relationnelles.",
+            "D. Génération de données d'entraînement pour d'autres modèles."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Qu'est-ce qu'un réseau de neurones ?",
+        "choix": [
+            "A. Un algorithme basé sur la sélection naturelle.",
+            "B. Une structure imitant les connexions neuronales humaines pour résoudre des problèmes complexes.",
+            "C. Un ensemble de règles définies pour optimiser des modèles.",
+            "D. Une méthode spécifique de clustering."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quels sont les deux principaux défis de l'apprentissage automatique ?",
+        "choix": [
+            "A. L'explicabilité des modèles et la gestion des données d'entraînement.",
+            "B. La puissance de calcul et le choix des logiciels.",
+            "C. La réduction des dimensions et la complexité exponentielle.",
+            "D. La création de bases de données et la formation des utilisateurs."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel algorithme est souvent utilisé pour le clustering en apprentissage non supervisé ?",
+        "choix": [
+            "A. K-moyennes.",
+            "B. Régression linéaire.",
+            "C. Réseaux neuronaux convolutifs.",
+            "D. Régression logistique."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Qu'est-ce que le test de Turing ?",
+        "choix": [
+            "A. Une méthode pour déterminer la performance d'un algorithme.",
+            "B. Un test pour évaluer si une machine peut imiter l'intelligence humaine.",
+            "C. Une technique de réduction de dimensionnalité.",
+            "D. Une procédure pour entraîner un réseau de neurones."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Qu'est-ce que l'apprentissage par renforcement ?",
+        "choix": [
+            "D. Technique pour résoudre des équations mathématiques complexes.",
+            "B. Apprentissage utilisant uniquement des données étiquetées.",
+            "A. Apprentissage basé sur des récompenses et pénalités pour guider l'agent.",
+            "C. Méthode pour réduire la dimensionnalité des données."
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle est la fonction principale de la descente de gradient en Machine Learning ?",
+        "choix": [
+            "B. Augmenter les performances d'un système expert.",
+            "A. Minimiser une fonction coût pour optimiser les paramètres d'un modèle.",
+            "D. Générer de nouvelles données d'entraînement.",
+            "C. Trouver des règles explicites dans des données non-étiquetées."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Que représente le coefficient de détermination R² dans une régression ?",
+        "choix": [
+            "C. La différence entre les données étiquetées et non étiquetées.",
+            "B. L'erreur absolue moyenne entre les valeurs réelles et prédites.",
+            "A. La proportion de variance expliquée par le modèle.",
+            "D. Une mesure pour classifier les données en clusters."
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est un exemple d'application de l'apprentissage supervisé ?",
+        "choix": [
+            "B. Groupement de clients selon leurs comportements d'achat.",
+            "A. Classification d'images en chats et chiens.",
+            "D. Simulation de comportements naturels.",
+            "C. Exploration de données sans étiquettes."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle est une limite importante de l'apprentissage automatique ?",
+        "choix": [
+            "D. Il ne peut pas être combiné avec des algorithmes statistiques.",
+            "B. Il n'est pas compatible avec les architectures modernes.",
+            "A. Il ne peut pas fonctionner avec des données bruyantes ou biaisées.",
+            "C. Il est limité uniquement à des tâches manuelles simples."
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Qu'est-ce que l'algorithme KNN utilise pour prédire une classe ?",
+        "choix": [
+            "C. La probabilité calculée via la fonction sigmoïde.",
+            "A. La distance entre un point et ses voisins les plus proches.",
+            "B. La corrélation linéaire entre les données.",
+            "D. Une matrice de confusion préexistante."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Dans la méthode des moindres carrés, que signifie minimiser les résidus ?",
+        "choix": [
+            "A. Réduire la somme des écarts au carré entre les prédictions et les valeurs réelles.",
+            "C. Générer de nouvelles données d'entraînement.",
+            "D. Classifier les données non-étiquetées.",
+            "B. Augmenter la précision des prédictions sans biais."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel problème est résolu par l'apprentissage par renforcement ?",
+        "choix": [
+            "A. Navigation autonome des voitures.",
+            "D. Réduction de la variance dans les données.",
+            "B. Classification d'emails en spam et non spam.",
+            "C. Analyse en composante principale."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Qu'est-ce qu'une fonction coût en Machine Learning ?",
+        "choix": [
+            "A. Une mesure utilisée pour évaluer l'erreur d'un modèle.",
+            "B. Une méthode pour étiqueter des données non supervisées.",
+            "C. Une fonction pour normaliser les données d'entrée.",
+            "D. Une technique pour augmenter la complexité d'un modèle."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Pourquoi utilise-t-on la courbe ROC en classification ?",
+        "choix": [
+            "A. Pour visualiser le compromis entre le rappel et le taux de faux positifs.",
+            "B. Pour calculer l'erreur quadratique moyenne.",
+            "C. Pour évaluer la variance d'un modèle supervisé.",
+            "D. Pour déterminer si les données sont étiquetées correctement."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est l'importance de l'explicabilité dans les modèles d'apprentissage automatique ?",
+        "choix": [
+            "A. Aider les utilisateurs à comprendre comment un modèle prend des décisions.",
+            "B. Réduire le bruit des données d'entraînement.",
+            "D. Optimiser les réseaux neuronaux convolutifs.",
+            "C. Maximiser les performances des systèmes experts."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est l'idée principale derrière les algorithmes génétiques ?",
+        "choix": [
+            "A. S'inspirer de la sélection naturelle pour optimiser des solutions.",
+            "B. Utiliser des règles explicites pour simuler des comportements.",
+            "C. Apprendre en utilisant des données non-étiquetées.",
+            "D. Classer des données en fonction de leur similarité."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Dans quel contexte utilise-t-on l'analyse en composantes principales (ACP) ?",
+        "choix": [
+            "A. Pour prédire des sorties catégoriques à partir de données étiquetées.",
+            "B. Pour réduire la dimensionnalité des données.",
+            "C. Pour entraîner un réseau de neurones convolutif.",
+            "D. Pour maximiser les biais dans un modèle."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle est une des limites majeures des modèles d'apprentissage profond ?",
+        "choix": [
+            "A. Leur manque d'explicabilité pour les utilisateurs.",
+            "B. Leur incapacité à traiter de grandes quantités de données.",
+            "C. Leur faible performance dans la classification d'images.",
+            "D. Leur dépendance à des règles expertes fixes."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Qu'est-ce que le problème du fléau de la dimension en Machine Learning ?",
+        "choix": [
+            "A. Le manque de diversité dans les données d'entraînement.",
+            "B. La lenteur des algorithmes sur des ensembles de données étiquetées.",
+            "C. La difficulté d'analyse des données lorsqu'elles ont trop de dimensions.",
+            "D. La réduction des données à des dimensions uniques."
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Qu'est-ce que la régularisation en Machine Learning ?",
+        "choix": [
+            "A. Une méthode de regroupement pour des données non-étiquetées.",
+            "B. Une technique pour augmenter la complexité des modèles.",
+            "C. Une méthode pour éviter le surapprentissage en pénalisant les paramètres complexes.",
+            "D. Un processus pour générer des données supplémentaires."
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle des données d'entraînement en Machine Learning ?",
+        "choix": [
+            "A. Permettre au modèle d'apprendre les règles implicites à partir d'exemples.",
+            "B. Tester la performance finale d'un modèle.",
+            "C. Vérifier la précision des données non-étiquetées.",
+            "D. Réduire la complexité des algorithmes supervisés."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est l'objectif principal de la validation croisée ?",
+        "choix": [
+            "A. Augmenter la taille des données d'entraînement.",
+            "B. Évaluer les performances d'un modèle en utilisant plusieurs sous-ensembles de données.",
+            "C. Optimiser les hyperparamètres automatiquement.",
+            "D. Réduire la variance dans les ensembles de test."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Que signifie overfitting (surapprentissage) dans un modèle ?",
+        "choix": [
+            "A. Le modèle s'adapte trop aux données d'entraînement et généralise mal.",
+            "B. Le modèle est incapable d'apprendre correctement les données.",
+            "C. Le modèle fonctionne uniquement avec des données non-étiquetées.",
+            "D. Le modèle nécessite plus de données d'entraînement pour fonctionner."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est une application typique de l'apprentissage non supervisé ?",
+        "choix": [
+            "A. Classer des images en catégories définies.",
+            "B. Prédire la température à partir de données historiques.",
+            "C. Identifier si un email est spam ou non.",
+            "D. Regrouper des clients en fonction de leurs habitudes d'achat."
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Qu'est-ce que le deep learning (apprentissage profond) utilise principalement ?",
+        "choix": [
+            "A. Des algorithmes basés sur des règles 'si-alors'.",
+            "B. Des réseaux neuronaux multicouches pour résoudre des problèmes complexes.",
+            "C. Des méthodes statistiques classiques pour les données étiquetées.",
+            "D. Des fonctions sigmoïdes pour la classification simple."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle est la différence principale entre régression et classification ?",
+        "choix": [
+            "A. La classification est toujours plus précise que la régression.",
+            "B. La régression utilise des données non-étiquetées, la classification utilise des données étiquetées.",
+            "C. La régression prédit des valeurs continues, la classification prédit des catégories.",
+            "D. La régression est uniquement utilisée pour le clustering."
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le résultat de l'expression `2 + 3 * 4` en Python ?",
+        "choix": [
+            "A. 20",
+            "B. 14",
+            "C. 24",
+            "D. 9"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment déclare-t-on une variable en Python ?",
+        "choix": [
+            "A. var x = 10",
+            "B. int x = 10",
+            "C. x = 10",
+            "D. declare x = 10"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour afficher un message à l'écran ?",
+        "choix": [
+            "A. print()",
+            "B. echo()",
+            "C. display()",
+            "D. show()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel type de données est utilisé pour stocker une valeur entière ?",
+        "choix": [
+            "A. str",
+            "B. float",
+            "C. int",
+            "D. bool"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Que renvoie `len('Python')` ?",
+        "choix": [
+            "A. 6",
+            "B. 5",
+            "C. 7",
+            "D. Erreur"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode est utilisée pour ajouter un élément à une liste ?",
+        "choix": [
+            "A. add()",
+            "B. append()",
+            "C. insert()",
+            "D. push()"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel mot-clé est utilisé pour définir une fonction en Python ?",
+        "choix": [
+            "A. function",
+            "B. def",
+            "C. func",
+            "D. define"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment crée-t-on un commentaire en Python ?",
+        "choix": [
+            "A. // Commentaire",
+            "B. <!-- Commentaire -->",
+            "C. # Commentaire",
+            "D. ** Commentaire **"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Que fait la méthode `strip()` d'une chaîne ?",
+        "choix": [
+            "A. Supprime les espaces au début et à la fin.",
+            "B. Supprime toutes les lettres de la chaîne.",
+            "C. Convertit la chaîne en majuscules.",
+            "D. Inverse la chaîne."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est la valeur de `10 // 3` ?",
+        "choix": [
+            "A. 3.33",
+            "B. 3",
+            "C. 4",
+            "D. 3.0"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel mot-clé est utilisé pour créer une boucle en Python ?",
+        "choix": [
+            "A. while",
+            "B. for",
+            "C. loop",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Que renvoie `type(True)` ?",
+        "choix": [
+            "A. <class 'int'>",
+            "B. <class 'str'>",
+            "C. <class 'bool'>",
+            "D. <class 'float'>"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Comment écrit-on une condition en Python ?",
+        "choix": [
+            "A. if x > 10 then",
+            "B. if x > 10:",
+            "C. if (x > 10)",
+            "D. if x > 10 {}"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle méthode est utilisée pour convertir une chaîne en minuscule ?",
+        "choix": [
+            "A. lower()",
+            "B. down()",
+            "C. small()",
+            "D. capitalize()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment accède-t-on au deuxième élément de la liste `[1, 2, 3, 4]` ?",
+        "choix": [
+            "A. list[1]",
+            "B. list[2]",
+            "C. list[0]",
+            "D. list[-1]"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de la méthode `split()` ?",
+        "choix": [
+            "A. Divise une chaîne en une liste.",
+            "B. Supprime un caractère de la chaîne.",
+            "C. Fusionne deux chaînes.",
+            "D. Trie les caractères d'une chaîne."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Que fait l'instruction `break` dans une boucle ?",
+        "choix": [
+            "A. Arrête l'exécution de la boucle.",
+            "B. Passe à l'itération suivante.",
+            "C. Redémarre la boucle.",
+            "D. Affiche une erreur."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel opérateur est utilisé pour l'égalité en Python ?",
+        "choix": [
+            "A. =",
+            "B. ==",
+            "C. !=",
+            "D. equal"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel mot-clé est utilisé pour gérer les exceptions ?",
+        "choix": [
+            "A. error",
+            "B. except",
+            "C. catch",
+            "D. handle"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment déclare-t-on un ensemble (set) en Python ?",
+        "choix": [
+            "A. set = {}",
+            "B. set = []",
+            "C. set = ()",
+            "D. set = {'a', 'b', 'c'}"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Que renvoie `5 % 2` ?",
+        "choix": [
+            "A. 2",
+            "B. 1",
+            "C. 5",
+            "D. 0"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Que fait la méthode `pop()` sur une liste ?",
+        "choix": [
+            "A. Ajoute un élément à la liste.",
+            "B. Supprime et renvoie le dernier élément.",
+            "C. Trie les éléments de la liste.",
+            "D. Fusionne deux listes."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel type de boucle s'arrête uniquement si une condition est remplie ?",
+        "choix": [
+            "A. for",
+            "B. while",
+            "C. until",
+            "D. loop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Que renvoie `range(5)` ?",
+        "choix": [
+            "A. Une liste contenant [0, 1, 2, 3, 4]",
+            "B. Une liste contenant [1, 2, 3, 4, 5]",
+            "C. Une séquence de nombres de 1 à 5",
+            "D. Une séquence de nombres de 0 à 5"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel type de données est immutable en Python ?",
+        "choix": [
+            "A. list",
+            "B. dict",
+            "C. tuple",
+            "D. set"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Comment crée-t-on une boucle qui itère 10 fois en Python ?",
+        "choix": [
+            "A. for i in range(0, 10):",
+            "B. while i < 10:",
+            "C. loop i in range(10):",
+            "D. for i = 1 to 10:"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment supprime-t-on un élément d'une liste en Python ?",
+        "choix": [
+            "A. remove()",
+            "B. delete()",
+            "C. clear()",
+            "D. erase()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de `continue` dans une boucle ?",
+        "choix": [
+            "A. Arrête la boucle.",
+            "B. Passe à l'itération suivante.",
+            "C. Réinitialise la boucle.",
+            "D. Ajoute un nouvel élément à la boucle."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Que fait la fonction `int()` ?",
+        "choix": [
+            "A. Convertit une valeur en entier.",
+            "B. Tronque un nombre flottant.",
+            "C. Calcule le carré d'un entier.",
+            "D. Génère un nombre aléatoire."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment vérifie-t-on si un élément est dans une liste ?",
+        "choix": [
+            "A. list.contains(x)",
+            "B. x in list",
+            "C. list.has(x)",
+            "D. list.find(x)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel mot-clé est utilisé pour importer NumPy en Python ?",
+        "choix": [
+            "A. import Numpy",
+            "B. import numpy as np",
+            "C. import numpy()",
+            "D. include numpy"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment crée-t-on un tableau NumPy vide de 5 éléments ?",
+        "choix": [
+            "A. np.zeros(5)",
+            "B. np.empty(5)",
+            "C. np.array(5)",
+            "D. np.blank(5)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour créer un tableau avec des valeurs comprises entre 0 et 10 avec un pas de 2 ?",
+        "choix": [
+            "A. np.linspace(0, 10, 2)",
+            "B. np.arange(0, 10, 2)",
+            "C. np.array(0, 10, 2)",
+            "D. np.range(0, 10, 2)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle fonction NumPy est utilisée pour trouver la forme (dimensions) d'un tableau ?",
+        "choix": [
+            "A. shape()",
+            "B. np.shape()",
+            "C. array.shape",
+            "D. ndarray.shape"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment transforme-t-on un tableau NumPy de 1D à 2D ?",
+        "choix": [
+            "A. array.flatten()",
+            "B. array.reshape()",
+            "C. np.restructure()",
+            "D. array.convert(2D)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour générer un tableau d'entiers aléatoires ?",
+        "choix": [
+            "A. np.random.randint()",
+            "B. np.random.rand()",
+            "C. np.random.random_integers()",
+            "D. np.random()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment additionne-t-on deux tableaux NumPy de même taille ?",
+        "choix": [
+            "A. np.add(array1, array2)",
+            "B. array1 + array2",
+            "C. np.concatenate(array1, array2)",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Que fait la méthode `np.sum()` sur un tableau NumPy ?",
+        "choix": [
+            "A. Calcule la somme des éléments du tableau.",
+            "B. Ajoute un élément à la fin du tableau.",
+            "C. Trie les éléments du tableau.",
+            "D. Multiplie les éléments du tableau."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est la fonction utilisée pour calculer la moyenne d'un tableau NumPy ?",
+        "choix": [
+            "A. np.average()",
+            "B. np.mean()",
+            "C. np.median()",
+            "D. np.mean_value()"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment accède-t-on à l'élément à la position (1,2) d'un tableau 2D NumPy ?",
+        "choix": [
+            "A. array[1,2]",
+            "B. array[1][2]",
+            "C. A et B",
+            "D. array.get(1,2)"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour concaténer deux tableaux NumPy ?",
+        "choix": [
+            "A. np.add()",
+            "B. np.concatenate()",
+            "C. np.join()",
+            "D. np.stack()"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment crée-t-on un tableau NumPy contenant uniquement des uns ?",
+        "choix": [
+            "A. np.ones()",
+            "B. np.ones_like()",
+            "C. np.create_ones()",
+            "D. A et B"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Que fait la méthode `np.max()` sur un tableau NumPy ?",
+        "choix": [
+            "A. Renvoie la valeur maximale du tableau.",
+            "B. Renvoie la position de la valeur maximale.",
+            "C. Trie le tableau en ordre décroissant.",
+            "D. Multiplie tous les éléments par la valeur maximale."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour calculer l'écart-type d'un tableau ?",
+        "choix": [
+            "A. np.variance()",
+            "B. np.std()",
+            "C. np.dev()",
+            "D. np.stdev()"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour vérifier si un élément existe dans un tableau ?",
+        "choix": [
+            "A. in",
+            "B. np.contains()",
+            "C. np.isin()",
+            "D. array.includes()"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle méthode NumPy est utilisée pour trier un tableau ?",
+        "choix": [
+            "A. np.sort()",
+            "B. array.sort()",
+            "C. np.order()",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle fonction NumPy est utilisée pour inverser un tableau ?",
+        "choix": [
+            "A. np.flip()",
+            "B. np.reverse()",
+            "C. np.invert()",
+            "D. np.array_flip()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour générer une matrice identité en NumPy ?",
+        "choix": [
+            "A. np.eye()",
+            "B. np.identity()",
+            "C. np.unit()",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment trouve-t-on l'indice de la valeur maximale dans un tableau ?",
+        "choix": [
+            "A. np.argmax()",
+            "B. np.index()",
+            "C. array.index(max)",
+            "D. np.maxindex()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est la fonction utilisée pour calculer la transposée d'une matrice NumPy ?",
+        "choix": [
+            "A. array.transpose()",
+            "B. array.T",
+            "C. np.transpose(array)",
+            "D. Toutes les réponses ci-dessus"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel mot-clé est utilisé pour importer la bibliothèque Pandas ?",
+        "choix": [
+            "A. from pandas import pandas",
+            "B. import pandas as pd",
+            "C. include pandas",
+            "D. pandas.import()"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle structure Pandas est utilisée pour représenter une table de données ?",
+        "choix": [
+            "A. Series",
+            "B. DataFrame",
+            "C. Array",
+            "D. Matrix"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment crée-t-on un DataFrame à partir d'un dictionnaire ?",
+        "choix": [
+            "A. pd.DataFrame(dict)",
+            "B. pd.Frame(dict)",
+            "C. pd.Data(dict)",
+            "D. pd.Table(dict)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle fonction Pandas est utilisée pour afficher les premières lignes d'un DataFrame ?",
+        "choix": [
+            "A. head()",
+            "B. first()",
+            "C. top()",
+            "D. show()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour afficher des informations sur un DataFrame ?",
+        "choix": [
+            "A. info()",
+            "B. describe()",
+            "C. summary()",
+            "D. details()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment sélectionne-t-on une colonne dans un DataFrame Pandas ?",
+        "choix": [
+            "A. df['column_name']",
+            "B. df.column_name",
+            "C. A et B",
+            "D. df(column_name)"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle méthode est utilisée pour obtenir des statistiques descriptives d'un DataFrame ?",
+        "choix": [
+            "A. df.describe()",
+            "B. df.summary()",
+            "C. df.stats()",
+            "D. df.analyze()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Que renvoie `df.shape` dans un DataFrame Pandas ?",
+        "choix": [
+            "A. La taille des colonnes.",
+            "B. Le nombre de lignes et colonnes.",
+            "C. Le type des données.",
+            "D. La structure des données."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle fonction Pandas est utilisée pour lire un fichier CSV ?",
+        "choix": [
+            "A. pd.read_csv()",
+            "B. pd.load_csv()",
+            "C. pd.open_csv()",
+            "D. pd.import_csv()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment filtre-t-on les lignes d'un DataFrame selon une condition ?",
+        "choix": [
+            "A. df[df['column'] > value]",
+            "B. df.filter('column' > value)",
+            "C. df.where('column' > value)",
+            "D. df.condition('column' > value)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour réinitialiser les index d'un DataFrame ?",
+        "choix": [
+            "A. reset_index()",
+            "B. reindex()",
+            "C. reset()",
+            "D. index_reset()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment trie-t-on les lignes d'un DataFrame selon une colonne ?",
+        "choix": [
+            "A. df.sort_values('column')",
+            "B. df.order_by('column')",
+            "C. df.sort('column')",
+            "D. df.arrange('column')"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment remplit-on les valeurs manquantes dans un DataFrame Pandas ?",
+        "choix": [
+            "A. fillna(value)",
+            "B. replace_na(value)",
+            "C. na_fill(value)",
+            "D. replace_missing(value)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour supprimer les doublons dans un DataFrame ?",
+        "choix": [
+            "A. drop_duplicates()",
+            "B. remove_duplicates()",
+            "C. unique()",
+            "D. deduplicate()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment ajoute-t-on une nouvelle colonne à un DataFrame ?",
+        "choix": [
+            "A. df['new_column'] = values",
+            "B. df.add_column('new_column', values)",
+            "C. df.insert_column('new_column', values)",
+            "D. df.new_column = values"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode est utilisée pour calculer la moyenne d'une colonne dans un DataFrame ?",
+        "choix": [
+            "A. df['column'].mean()",
+            "B. df['column'].average()",
+            "C. df['column'].median()",
+            "D. df['column'].sum() / len(df)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment fusionne-t-on deux DataFrames sur une colonne commune ?",
+        "choix": [
+            "A. pd.merge(df1, df2, on='column')",
+            "B. pd.concat(df1, df2, on='column')",
+            "C. pd.join(df1, df2, on='column')",
+            "D. df1.merge(df2, column='column')"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour regrouper les données par une colonne spécifique ?",
+        "choix": [
+            "A. groupby()",
+            "B. group()",
+            "C. categorize()",
+            "D. aggregate()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment vérifie-t-on s'il existe des valeurs manquantes dans un DataFrame ?",
+        "choix": [
+            "A. df.isnull()",
+            "B. df.hasnull()",
+            "C. df.check_na()",
+            "D. df.missing()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode est utilisée pour obtenir les noms des colonnes d'un DataFrame ?",
+        "choix": [
+            "A. df.columns",
+            "B. df.colnames()",
+            "C. df.get_columns()",
+            "D. df.column_names()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment divise-t-on une liste en deux parties égales en Python ?",
+        "choix": [
+            "A. list.split(2)",
+            "B. [list[:len(list)//2], list[len(list)//2:]]",
+            "C. split(list, 2)",
+            "D. list.partition(2)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle méthode permet de supprimer un élément d'une liste en Python ?",
+        "choix": [
+            "A. list.remove(value)",
+            "B. list.pop(index)",
+            "C. del list[index]",
+            "D. Toutes les réponses ci-dessus"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment ajoute-t-on un élément à une liste en Python ?",
+        "choix": [
+            "A. list.add(value)",
+            "B. list.append(value)",
+            "C. list.insert(index, value)",
+            "D. B et C"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment trouve-t-on l'indice d'un élément dans une liste en Python ?",
+        "choix": [
+            "A. list.index(value)",
+            "B. list.find(value)",
+            "C. index(list, value)",
+            "D. list.search(value)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment divise-t-on un tableau NumPy en trois parties égales ?",
+        "choix": [
+            "A. np.split(array, 3)",
+            "B. np.array_split(array, 3)",
+            "C. np.divide(array, 3)",
+            "D. np.split_into(array, 3)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment sélectionne-t-on les éléments pairs d'un tableau NumPy ?",
+        "choix": [
+            "A. array[array % 2 == 0]",
+            "B. np.select(array % 2 == 0)",
+            "C. np.filter(array, even=True)",
+            "D. array.filter(even=True)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode NumPy est utilisée pour fusionner deux tableaux horizontalement ?",
+        "choix": [
+            "A. np.hstack((array1, array2))",
+            "B. np.vstack((array1, array2))",
+            "C. np.concatenate((array1, array2), axis=0)",
+            "D. np.merge((array1, array2))"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment tri-t-on un tableau NumPy dans l'ordre croissant ?",
+        "choix": [
+            "A. np.sort(array)",
+            "B. array.sort()",
+            "C. sorted(array)",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle fonction NumPy est utilisée pour calculer la somme cumulative d'un tableau ?",
+        "choix": [
+            "A. np.cumsum(array)",
+            "B. np.sum(array, cumulative=True)",
+            "C. array.cumsum()",
+            "D. A et C"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment crée-t-on un tableau NumPy en divisant les valeurs entre 0 et 10 en 5 intervalles égaux ?",
+        "choix": [
+            "A. np.linspace(0, 10, 5)",
+            "B. np.arange(0, 10, 2)",
+            "C. np.divide(0, 10, 5)",
+            "D. np.range(0, 10, 5)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment divise-t-on un DataFrame Pandas en deux parties égales ?",
+        "choix": [
+            "A. pd.split(df, 2)",
+            "B. [df.iloc[:len(df)//2], df.iloc[len(df)//2:]]",
+            "C. df.partition(2)",
+            "D. df.divide(2)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment sélectionne-t-on une ligne spécifique dans un DataFrame Pandas ?",
+        "choix": [
+            "A. df.iloc[index]",
+            "B. df.loc[index]",
+            "C. df[index]",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle fonction Pandas est utilisée pour diviser un DataFrame en groupes selon une colonne ?",
+        "choix": [
+            "A. df.groupby('column')",
+            "B. df.split('column')",
+            "C. df.divide('column')",
+            "D. df.partition('column')"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment extrait-on uniquement les colonnes numériques d'un DataFrame ?",
+        "choix": [
+            "A. df.select_dtypes(include=['number'])",
+            "B. df.filter(numeric=True)",
+            "C. df.extract(numeric=True)",
+            "D. df.columns(dtype='number')"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment divise-t-on un DataFrame en lignes où une colonne spécifique respecte une condition ?",
+        "choix": [
+            "A. df[df['column'] > value]",
+            "B. df.loc['column'] > value",
+            "C. df.filter('column', condition=value)",
+            "D. df.select('column', condition=value)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment fusionne-t-on deux DataFrames horizontalement en Pandas ?",
+        "choix": [
+            "A. pd.concat([df1, df2], axis=1)",
+            "B. pd.merge([df1, df2], axis=1)",
+            "C. df1.append(df2, axis=1)",
+            "D. pd.join([df1, df2], axis=1)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment trie-t-on un DataFrame selon plusieurs colonnes en Pandas ?",
+        "choix": [
+            "A. df.sort_values(['col1', 'col2'])",
+            "B. df.sort(['col1', 'col2'])",
+            "C. df.order_by(['col1', 'col2'])",
+            "D. df.arrange(['col1', 'col2'])"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour normaliser les données d'une colonne ?",
+        "choix": [
+            "A. df['column'] / df['column'].max()",
+            "B. normalize(df['column'])",
+            "C. df['column'].normalize()",
+            "D. df['column'].scale()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment ajoute-t-on une nouvelle colonne basée sur une opération entre deux colonnes existantes ?",
+        "choix": [
+            "A. df['new_column'] = df['col1'] + df['col2']",
+            "B. df.add_column('new_column', df['col1'] + df['col2'])",
+            "C. df.create_column('new_column', df['col1'] + df['col2'])",
+            "D. df.new_column = df['col1'] + df['col2']"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment remplit-on les valeurs manquantes dans un DataFrame avec la moyenne d'une colonne ?",
+        "choix": [
+            "A. df['column'].fillna(df['column'].mean(), inplace=True)",
+            "B. df['column'].replace_na(mean=True)",
+            "C. df['column'].replace_missing(df['column'].mean())",
+            "D. df['column'].fill(df['column'].mean())"
+        ],
+        "reponse": "A"
+    }
+]
