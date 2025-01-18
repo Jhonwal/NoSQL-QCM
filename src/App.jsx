@@ -23,16 +23,16 @@ const App = () => {
   const quizOptions = [
     {
       id: 'ml',
-      title: 'Machine Learning',
-      description: 'Test your knowledge in Machine Learning concepts and applications',
+      title: 'Machine Learning 1',
+      description: 'Test your knowledge in Machine Learning concepts and applications 1',
       icon: Brain,
       file: 'ml_qcm.json',
       gradient: 'from-blue-500 to-purple-500'
     },
     {
       id: 'nosql',
-      title: 'NoSQL Databases',
-      description: 'Challenge yourself with NoSQL database concepts and best practices',
+      title: 'NoSQL Databases 1',
+      description: 'Challenge yourself with NoSQL database concepts and best practices 1',
       icon: Database,
       file: 'nosql_qcm.json',
       gradient: 'from-green-500 to-teal-500'
