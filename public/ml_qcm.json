@@ -102,29 +102,29 @@
     {
         "question": "Qu'est-ce que l'apprentissage par renforcement ?",
         "choix": [
-            "D. Technique pour résoudre des équations mathématiques complexes.",
+            "A. Technique pour résoudre des équations mathématiques complexes.",
             "B. Apprentissage utilisant uniquement des données étiquetées.",
-            "A. Apprentissage basé sur des récompenses et pénalités pour guider l'agent.",
-            "C. Méthode pour réduire la dimensionnalité des données."
+            "C. Apprentissage basé sur des récompenses et pénalités pour guider l'agent.",
+            "D. Méthode pour réduire la dimensionnalité des données."
         ],
         "reponse": "C"
     },
     {
         "question": "Quelle est la fonction principale de la descente de gradient en Machine Learning ?",
         "choix": [
-            "B. Augmenter les performances d'un système expert.",
-            "A. Minimiser une fonction coût pour optimiser les paramètres d'un modèle.",
-            "D. Générer de nouvelles données d'entraînement.",
-            "C. Trouver des règles explicites dans des données non-étiquetées."
+            "A. Augmenter les performances d'un système expert.",
+            "B. Minimiser une fonction coût pour optimiser les paramètres d'un modèle.",
+            "C. Trouver des règles explicites dans des données non-étiquetées.",
+            "D. Générer de nouvelles données d'entraînement."
         ],
         "reponse": "B"
     },
     {
         "question": "Que représente le coefficient de détermination R² dans une régression ?",
         "choix": [
-            "C. La différence entre les données étiquetées et non étiquetées.",
+            "A. La différence entre les données étiquetées et non étiquetées.",
             "B. L'erreur absolue moyenne entre les valeurs réelles et prédites.",
-            "A. La proportion de variance expliquée par le modèle.",
+            "C. La proportion de variance expliquée par le modèle.",
             "D. Une mesure pour classifier les données en clusters."
         ],
         "reponse": "C"
@@ -132,29 +132,29 @@
     {
         "question": "Quel est un exemple d'application de l'apprentissage supervisé ?",
         "choix": [
-            "B. Groupement de clients selon leurs comportements d'achat.",
-            "A. Classification d'images en chats et chiens.",
-            "D. Simulation de comportements naturels.",
-            "C. Exploration de données sans étiquettes."
+            "A. Groupement de clients selon leurs comportements d'achat.",
+            "B. Classification d'images en chats et chiens.",
+            "C. Simulation de comportements naturels.",
+            "D. Exploration de données sans étiquettes."
         ],
         "reponse": "B"
     },
     {
         "question": "Quelle est une limite importante de l'apprentissage automatique ?",
         "choix": [
-            "D. Il ne peut pas être combiné avec des algorithmes statistiques.",
+            "A. Il ne peut pas être combiné avec des algorithmes statistiques.",
             "B. Il n'est pas compatible avec les architectures modernes.",
-            "A. Il ne peut pas fonctionner avec des données bruyantes ou biaisées.",
-            "C. Il est limité uniquement à des tâches manuelles simples."
+            "C. Il ne peut pas fonctionner avec des données bruyantes ou biaisées.",
+            "D. Il est limité uniquement à des tâches manuelles simples."
         ],
         "reponse": "C"
     },
     {
         "question": "Qu'est-ce que l'algorithme KNN utilise pour prédire une classe ?",
         "choix": [
-            "C. La probabilité calculée via la fonction sigmoïde.",
-            "A. La distance entre un point et ses voisins les plus proches.",
-            "B. La corrélation linéaire entre les données.",
+            "A. La probabilité calculée via la fonction sigmoïde.",
+            "B. La distance entre un point et ses voisins les plus proches.",
+            "C. La corrélation linéaire entre les données.",
             "D. Une matrice de confusion préexistante."
         ],
         "reponse": "B"
