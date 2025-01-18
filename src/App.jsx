@@ -18,7 +18,7 @@ const App = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
   const [showResults, setShowResults] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(30);
+  const [timeLeft, setTimeLeft] = useState(60);
 
   const quizOptions = [
     {
@@ -79,7 +79,7 @@ const App = () => {
           clearInterval(timer);
           if (currentQuestion < questions.length - 1) {
             setCurrentQuestion(prev => prev + 1);
-            return 30;
+            return 60;
           } else {
             setShowResults(true);
           }
@@ -92,7 +92,7 @@ const App = () => {
   }, [currentQuestion, loading, showResults, questions.length, quizType]);
 
   useEffect(() => {
-    setTimeLeft(30);
+    setTimeLeft(60);
   }, [currentQuestion]);
 
   const handleAnswer = (answer) => {
@@ -104,7 +104,7 @@ const App = () => {
   const nextQuestion = () => {
     if (currentQuestion < questions.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
-      setTimeLeft(30);
+      setTimeLeft(60);
     } else {
       setShowResults(true);
     }
@@ -138,7 +138,7 @@ const App = () => {
     setCurrentQuestion(0);
     setUserAnswers([]);
     setShowResults(false);
-    setTimeLeft(30);
+    setTimeLeft(60);
   };
 
   if (!quizType) {
