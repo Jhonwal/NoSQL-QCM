@@ -1,0 +1,632 @@
+[
+    {
+        "question": "Quel est le format de stockage utilisé par MongoDB ?",
+        "choix": [
+            "A. JSON",
+            "B. XML",
+            "C. BSON",
+            "D. CSV"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est l'avantage principal des bases de données NoSQL pour les Big Data ?",
+        "choix": [
+            "A. Rigidité du schéma",
+            "B. Scalabilité horizontale",
+            "C. Transactions ACID",
+            "D. Support des jointures"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle des index dans une base de données ?",
+        "choix": [
+            "A. Augmenter la sécurité des données",
+            "B. Améliorer la performance des requêtes",
+            "C. Réduire la taille de la base de données",
+            "D. Gérer les transactions"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel type de modèle NoSQL est Redis ?",
+        "choix": [
+            "A. Clé-Valeur",
+            "B. Document",
+            "C. Colonne-Famille",
+            "D. Graphe"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est l'objectif principal de l'utilisation de Redis ?",
+        "choix": [
+            "A. Gérer des transactions complexes",
+            "B. Fournir un cache rapide",
+            "C. Stocker des données relationnelles",
+            "D. Gérer des données non structurées"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le principal inconvénient des bases de données NoSQL ?",
+        "choix": [
+            "A. Flexibilité du schéma",
+            "B. Manque de support pour les transactions ACID",
+            "C. Scalabilité horizontale",
+            "D. Support des jointures"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le modèle de données utilisé par Neo4j ?",
+        "choix": [
+            "A. Clé-Valeur",
+            "B. Colonne-Famille",
+            "C. Document",
+            "D. Graphe"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est l'objectif principal de Cassandra ?",
+        "choix": [
+            "A. Gérer des transactions complexes",
+            "B. Fournir une haute disponibilité et tolérance aux pannes",
+            "C. Stocker des données relationnelles",
+            "D. Gérer des données non structurées"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel type de requête est utilisé pour interroger des données dans MongoDB ?",
+        "choix": [
+            "A. SQL",
+            "B. CQL",
+            "C. MQL",
+            "D. NoSQL"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le principal avantage de la flexibilité du schéma dans MongoDB ?",
+        "choix": [
+            "A. Réduction des coûts",
+            "B. Adaptation facile aux changements de données",
+            "C. Amélioration de la sécurité",
+            "D. Support des transactions ACID"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la clause MATCH dans Neo4j ?",
+        "choix": [
+            "A. Créer des nœuds",
+            "B. Créer des relations",
+            "C. Interroger des nœuds et des relations",
+            "D. Supprimer des nœuds"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel type de données peut être stocké dans une base de données orientée document ?",
+        "choix": [
+            "A. Uniquement des chaînes de caractères",
+            "B. Uniquement des nombres",
+            "C. Des documents JSON",
+            "D. Des tableaux uniquement"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est l'objectif principal de l'utilisation de sharding dans les bases de données NoSQL ?",
+        "choix": [
+            "A. Améliorer la sécurité des données",
+            "B. Diviser les données pour améliorer la performance",
+            "C. Gérer les transactions ACID",
+            "D. Créer des index pour les requêtes"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le format de stockage utilisé par Cassandra ?",
+        "choix": [
+            "A. JSON",
+            "B. XML",
+            "C. BSON",
+            "D. Colonne-Famille"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est l'avantage principal des bases de données orientées graphe ?",
+        "choix": [
+            "A. Rigidité du schéma",
+            "B. Gestion efficace des relations complexes",
+            "C. Transactions ACID",
+            "D. Support des jointures"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la clause CREATE dans Neo4j ?",
+        "choix": [
+            "A. Créer des nœuds et des relations",
+            "B. Interroger des nœuds",
+            "C. Supprimer des nœuds",
+            "D. Mettre à jour des nœuds"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel type de modèle NoSQL est Cassandra ?",
+        "choix": [
+            "A. Clé-Valeur",
+            "B. Document",
+            "C. Colonne-Famille",
+            "D. Graphe"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est l'avantage principal de la scalabilité horizontale ?",
+        "choix": [
+            "A. Ajout de ressources sur un seul serveur",
+            "B. Ajout de plusieurs serveurs pour distribuer la charge",
+            "C. Réduction des coûts d'infrastructure",
+            "D. Amélioration de la sécurité des données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le principal rôle du sharding dans les bases de données NoSQL ?",
+        "choix": [
+            "A. Augmenter la sécurité des données",
+            "B. Diviser les données en fragments pour améliorer la performance",
+            "C. Gérer les transactions ACID",
+            "D. Créer des index pour les requêtes"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Qu'est-ce que le théorème de CAP ?",
+        "choix": [
+            "A. Un modèle de données pour les bases relationnelles",
+            "B. Un principe qui stipule qu'un système distribué ne peut garantir simultanément consistance, disponibilité et tolérance aux partitions",
+            "C. Une méthode de partitionnement des données",
+            "D. Un type de base de données NoSQL"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel modèle NoSQL est optimisé pour des lectures massives ?",
+        "choix": [
+            "A. Clé-Valeur",
+            "B. Document",
+            "C. Colonne-Famille",
+            "D. Graphe"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle est la principale caractéristique des bases de données orientées document ?",
+        "choix": [
+            "A. Elles stockent des données sous forme de paires clé-valeur",
+            "B. Elles utilisent des colonnes regroupées",
+            "C. Elles stockent des données sous forme de documents (ex. JSON)",
+            "D. Elles gèrent des relations complexes entre entités"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est l'objectif principal des bases de données NoSQL ?",
+        "choix": [
+            "A. Gérer des transactions complexes",
+            "B. Offrir une flexibilité et une évolutivité pour les applications modernes",
+            "C. Assurer une forte cohérence des données",
+            "D. Remplacer complètement les bases de données relationnelles"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est un exemple de base de données orientée clé-valeur ?",
+        "choix": [
+            "A. MongoDB",
+            "B. Cassandra",
+            "C. Redis",
+            "D. Neo4j"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle est la principale limitation des bases de données relationnelles ?",
+        "choix": [
+            "A. Flexibilité du schéma",
+            "B. Scalabilité horizontale",
+            "C. Gestion des données non structurées",
+            "D. Support des transactions ACID"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel modèle NoSQL est le mieux adapté pour gérer des relations complexes entre entités ?",
+        "choix": [
+            "A. Clé-Valeur",
+            "B. Document",
+            "C. Colonne-Famille",
+            "D. Graphe"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Qu'est-ce que le modèle ACID ?",
+        "choix": [
+            "A. Un modèle de données pour les bases NoSQL",
+            "B. Un ensemble de propriétés garantissant des transactions fiables dans les bases relationnelles",
+            "C. Un type de base de données orientée document",
+            "D. Un protocole de communication entre serveurs"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est l'objectif principal de la consistance éventuelle ?",
+        "choix": [
+            "A. Garantir des données immédiatement synchronisées",
+            "B. Améliorer les performances et la disponibilité",
+            "C. Assurer une forte cohérence des données",
+            "D. Éliminer les incohérences temporaires"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel type de base de données est conçu pour des applications nécessitant une haute disponibilité et une tolérance aux pannes ?",
+        "choix": [
+            "A. Bases de données relationnelles",
+            "B. Bases de données NoSQL",
+            "C. Bases de données en mémoire",
+            "D. Bases de données orientées graphe"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle principal d'un KeySpace dans Cassandra ?",
+        "choix": [
+            "A. Regrouper des colonnes",
+            "B. Regrouper des tables",
+            "C. Gérer les transactions",
+            "D. Stocker des données en mémoire"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande CQL est utilisée pour créer une table dans Cassandra ?",
+        "choix": [
+            "A. CREATE TABLE",
+            "B. ADD TABLE",
+            "C. NEW TABLE",
+            "D. INSERT TABLE"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel type de stratégie de réplication est recommandé pour un cluster avec un seul data-center dans Cassandra ?",
+        "choix": [
+            "A. NetworkTopologyStrategy",
+            "B. SimpleStrategy",
+            "C. MultiDataCenterStrategy",
+            "D. HybridStrategy"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est un avantage des bases de données NoSQL par rapport aux bases relationnelles ?",
+        "choix": [
+            "A. Support des transactions complexes",
+            "B. Flexibilité de schéma",
+            "C. Rigidité des données",
+            "D. Utilisation de SQL"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel type de modèle NoSQL est utilisé pour stocker des données sous forme de documents ?",
+        "choix": [
+            "A. Clé-Valeur",
+            "B. Colonne-Famille",
+            "C. Document",
+            "D. Graphe"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le principal inconvénient des bases de données orientées clé-valeur ?",
+        "choix": [
+            "A. Complexité des requêtes",
+            "B. Manque de flexibilité",
+            "C. Difficulté à gérer des données structurées",
+            "D. Faible performance"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le but du partitionnement (sharding) dans les bases de données NoSQL ?",
+        "choix": [
+            "A. Augmenter la sécurité des données",
+            "B. Améliorer la performance en répartissant les données",
+            "C. Gérer les transactions ACID",
+            "D. Créer des index pour les requêtes"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel type de données est utilisé pour stocker des informations sous forme de paires clé-valeur dans Redis ?",
+        "choix": [
+            "A. Hachages",
+            "B. Listes",
+            "C. Chaînes",
+            "D. Ensembles"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle commande est utilisée pour supprimer une clé dans Redis ?",
+        "choix": [
+            "A. REMOVE",
+            "B. DELETE",
+            "C. DEL",
+            "D. DROP"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le principal avantage de l'utilisation de Redis pour le stockage de données ?",
+        "choix": [
+            "A. Complexité des requêtes",
+            "B. Rapidité d'accès grâce au stockage en mémoire",
+            "C. Support des transactions ACID",
+            "D. Rigidité du schéma"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel type de modèle NoSQL est le mieux adapté pour des applications nécessitant une gestion de connexions complexes ?",
+        "choix": [
+            "A. Clé-Valeur",
+            "B. Document",
+            "C. Colonne-Famille",
+            "D. Graphe"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle principal de la commande EXPIRE dans Redis ?",
+        "choix": [
+            "A. Définir une durée de vie pour une clé",
+            "B. Supprimer une clé",
+            "C. Renommer une clé",
+            "D. Créer une clé"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est un exemple de base de données orientée graphe ?",
+        "choix": [
+            "A. MongoDB",
+            "B. Cassandra",
+            "C. Neo4j",
+            "D. Redis"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel type de données est utilisé pour stocker des informations sous forme de listes dans Redis ?",
+        "choix": [
+            "A. Hachages",
+            "B. Listes",
+            "C. Chaînes",
+            "D. Ensembles"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande CQL est utilisée pour modifier une table dans Cassandra ?",
+        "choix": [
+            "A. UPDATE TABLE",
+            "B. ALTER TABLE",
+            "C. MODIFY TABLE",
+            "D. CHANGE TABLE"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le principal objectif de la stratégie de réplication dans Cassandra ?",
+        "choix": [
+            "A. Assurer la sécurité des données",
+            "B. Garantir la disponibilité des données",
+            "C. Améliorer la performance des requêtes",
+            "D. Réduire la taille des données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel type de base de données est conçu pour gérer des données non structurées ?",
+        "choix": [
+            "A. Bases de données relationnelles",
+            "B. Bases de données NoSQL",
+            "C. Bases de données en mémoire",
+            "D. Bases de données orientées graphe"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle principal de la commande GET dans Redis ?",
+        "choix": [
+            "A. Récupérer la valeur d'une clé",
+            "B. Définir une clé",
+            "C. Supprimer une clé",
+            "D. Modifier une clé"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est un exemple de cas d'utilisation pour les bases de données orientées graphe ?",
+        "choix": [
+            "A. Gestion de sessions utilisateur",
+            "B. Réseaux sociaux",
+            "C. Stockage de configurations",
+            "D. Analyse de données massives"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le principal avantage des bases de données orientées colonne-famille ?",
+        "choix": [
+            "A. Flexibilité du schéma",
+            "B. Optimisation pour des lectures massives",
+            "C. Gestion des transactions ACID",
+            "D. Support des données non structurées"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel type de données est utilisé pour stocker des informations sous forme de hachages dans Redis ?",
+        "choix": [
+            "A. Hachages",
+            "B. Listes",
+            "C. Chaînes",
+            "D. Ensembles"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle principal de la commande HSET dans Redis ?",
+        "choix": [
+            "A. Ajouter un élément à une liste",
+            "B. Définir un champ dans un hachage",
+            "C. Supprimer un hachage",
+            "D. Récupérer un hachage"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le principal inconvénient des bases de données orientées document ?",
+        "choix": [
+            "A. Manque de flexibilité",
+            "B. Difficulté à gérer des données structurées",
+            "C. Faible performance",
+            "D. Complexité des requêtes"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le principal rôle de la commande SADD dans Redis ?",
+        "choix": [
+            "A. Ajouter un élément à un ensemble",
+            "B. Supprimer un élément d'un ensemble",
+            "C. Récupérer tous les éléments d'un ensemble",
+            "D. Modifier un élément d'un ensemble"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel type de modèle NoSQL est le mieux adapté pour des applications nécessitant une gestion de données semi-structurées ?",
+        "choix": [
+            "A. Clé-Valeur",
+            "B. Document",
+            "C. Colonne-Famille",
+            "D. Graphe"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le principal avantage de l'utilisation de Cassandra pour le stockage de données ?",
+        "choix": [
+            "A. Support des transactions ACID",
+            "B. Scalabilité horizontale et haute disponibilité",
+            "C. Rigidité du schéma",
+            "D. Complexité des requêtes"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle principal de la commande ZADD dans Redis ?",
+        "choix": [
+            "A. Ajouter un élément à un ensemble trié",
+            "B. Supprimer un élément d'un ensemble trié",
+            "C. Récupérer tous les éléments d'un ensemble trié",
+            "D. Modifier un élément d'un ensemble trié"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le principal inconvénient des bases de données orientées graphe ?",
+        "choix": [
+            "A. Manque de flexibilité",
+            "B. Difficulté à gérer des données non structurées",
+            "C. Faible performance pour les requêtes simples",
+            "D. Complexité des relations entre entités"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle principal de la commande LRANGE dans Redis ?",
+        "choix": [
+            "A. Récupérer une plage d'éléments d'une liste",
+            "B. Ajouter un élément à une liste",
+            "C. Supprimer un élément d'une liste",
+            "D. Modifier un élément d'une liste"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel type de données est utilisé pour stocker des informations sous forme de flux dans Redis ?",
+        "choix": [
+            "A. Hachages",
+            "B. Listes",
+            "C. Chaînes",
+            "D. Streams"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le principal rôle de la commande HGET dans Redis ?",
+        "choix": [
+            "A. Récupérer un champ d'un hachage",
+            "B. Ajouter un champ à un hachage",
+            "C. Supprimer un hachage",
+            "D. Modifier un champ d'un hachage"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle principal de la commande SINTER dans Redis ?",
+        "choix": [
+            "A. Retourner l'union de plusieurs ensembles",
+            "B. Retourner l'intersection de plusieurs ensembles",
+            "C. Retourner la différence entre plusieurs ensembles",
+            "D. Ajouter un élément à un ensemble"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Qu'est-ce que MongoDB ?",
+        "choix": [
+            "A. Une base de données relationnelle",
+            "B. Une base de données NoSQL orientée document",
+            "C. Un système de gestion de fichiers",
+            "D. Un langage de programmation"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel format de données utilise MongoDB pour stocker les documents ?",
+        "choix": [
+            "A. XML",
+            "B. JSON",
+            "C. BSON",
+            "D. CSV"
+        ],
+        "reponse": "C"
+    }
+]

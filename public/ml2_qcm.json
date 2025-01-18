@@ -1,0 +1,602 @@
+[
+    {
+        "question": "Quel mot-clé est utilisé pour importer NumPy en Python ?",
+        "choix": [
+            "A. import Numpy",
+            "B. import numpy as np",
+            "C. import numpy()",
+            "D. include numpy"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment crée-t-on un tableau NumPy vide de 5 éléments ?",
+        "choix": [
+            "A. np.zeros(5)",
+            "B. np.empty(5)",
+            "C. np.array(5)",
+            "D. np.blank(5)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour créer un tableau avec des valeurs comprises entre 0 et 10 avec un pas de 2 ?",
+        "choix": [
+            "A. np.linspace(0, 10, 2)",
+            "B. np.arange(0, 10, 2)",
+            "C. np.array(0, 10, 2)",
+            "D. np.range(0, 10, 2)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle fonction NumPy est utilisée pour trouver la forme (dimensions) d'un tableau ?",
+        "choix": [
+            "A. shape()",
+            "B. np.shape()",
+            "C. array.shape",
+            "D. ndarray.shape"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment transforme-t-on un tableau NumPy de 1D à 2D ?",
+        "choix": [
+            "A. array.flatten()",
+            "B. array.reshape()",
+            "C. np.restructure()",
+            "D. array.convert(2D)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour générer un tableau d'entiers aléatoires ?",
+        "choix": [
+            "A. np.random.randint()",
+            "B. np.random.rand()",
+            "C. np.random.random_integers()",
+            "D. np.random()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment additionne-t-on deux tableaux NumPy de même taille ?",
+        "choix": [
+            "A. np.add(array1, array2)",
+            "B. array1 + array2",
+            "C. np.concatenate(array1, array2)",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Que fait la méthode `np.sum()` sur un tableau NumPy ?",
+        "choix": [
+            "A. Calcule la somme des éléments du tableau.",
+            "B. Ajoute un élément à la fin du tableau.",
+            "C. Trie les éléments du tableau.",
+            "D. Multiplie les éléments du tableau."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est la fonction utilisée pour calculer la moyenne d'un tableau NumPy ?",
+        "choix": [
+            "A. np.average()",
+            "B. np.mean()",
+            "C. np.median()",
+            "D. np.mean_value()"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment accède-t-on à l'élément à la position (1,2) d'un tableau 2D NumPy ?",
+        "choix": [
+            "A. array[1,2]",
+            "B. array[1][2]",
+            "C. A et B",
+            "D. array.get(1,2)"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour concaténer deux tableaux NumPy ?",
+        "choix": [
+            "A. np.add()",
+            "B. np.concatenate()",
+            "C. np.join()",
+            "D. np.stack()"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment crée-t-on un tableau NumPy contenant uniquement des uns ?",
+        "choix": [
+            "A. np.ones()",
+            "B. np.ones_like()",
+            "C. np.create_ones()",
+            "D. A et B"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Que fait la méthode `np.max()` sur un tableau NumPy ?",
+        "choix": [
+            "A. Renvoie la valeur maximale du tableau.",
+            "B. Renvoie la position de la valeur maximale.",
+            "C. Trie le tableau en ordre décroissant.",
+            "D. Multiplie tous les éléments par la valeur maximale."
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour calculer l'écart-type d'un tableau ?",
+        "choix": [
+            "A. np.variance()",
+            "B. np.std()",
+            "C. np.dev()",
+            "D. np.stdev()"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour vérifier si un élément existe dans un tableau ?",
+        "choix": [
+            "A. in",
+            "B. np.contains()",
+            "C. np.isin()",
+            "D. array.includes()"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle méthode NumPy est utilisée pour trier un tableau ?",
+        "choix": [
+            "A. np.sort()",
+            "B. array.sort()",
+            "C. np.order()",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle fonction NumPy est utilisée pour inverser un tableau ?",
+        "choix": [
+            "A. np.flip()",
+            "B. np.reverse()",
+            "C. np.invert()",
+            "D. np.array_flip()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle fonction est utilisée pour générer une matrice identité en NumPy ?",
+        "choix": [
+            "A. np.eye()",
+            "B. np.identity()",
+            "C. np.unit()",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment trouve-t-on l'indice de la valeur maximale dans un tableau ?",
+        "choix": [
+            "A. np.argmax()",
+            "B. np.index()",
+            "C. array.index(max)",
+            "D. np.maxindex()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est la fonction utilisée pour calculer la transposée d'une matrice NumPy ?",
+        "choix": [
+            "A. array.transpose()",
+            "B. array.T",
+            "C. np.transpose(array)",
+            "D. Toutes les réponses ci-dessus"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel mot-clé est utilisé pour importer la bibliothèque Pandas ?",
+        "choix": [
+            "A. from pandas import pandas",
+            "B. import pandas as pd",
+            "C. include pandas",
+            "D. pandas.import()"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle structure Pandas est utilisée pour représenter une table de données ?",
+        "choix": [
+            "A. Series",
+            "B. DataFrame",
+            "C. Array",
+            "D. Matrix"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment crée-t-on un DataFrame à partir d'un dictionnaire ?",
+        "choix": [
+            "A. pd.DataFrame(dict)",
+            "B. pd.Frame(dict)",
+            "C. pd.Data(dict)",
+            "D. pd.Table(dict)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle fonction Pandas est utilisée pour afficher les premières lignes d'un DataFrame ?",
+        "choix": [
+            "A. head()",
+            "B. first()",
+            "C. top()",
+            "D. show()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour afficher des informations sur un DataFrame ?",
+        "choix": [
+            "A. info()",
+            "B. describe()",
+            "C. summary()",
+            "D. details()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment sélectionne-t-on une colonne dans un DataFrame Pandas ?",
+        "choix": [
+            "A. df['column_name']",
+            "B. df.column_name",
+            "C. A et B",
+            "D. df(column_name)"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle méthode est utilisée pour obtenir des statistiques descriptives d'un DataFrame ?",
+        "choix": [
+            "A. df.describe()",
+            "B. df.summary()",
+            "C. df.stats()",
+            "D. df.analyze()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Que renvoie `df.shape` dans un DataFrame Pandas ?",
+        "choix": [
+            "A. La taille des colonnes.",
+            "B. Le nombre de lignes et colonnes.",
+            "C. Le type des données.",
+            "D. La structure des données."
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle fonction Pandas est utilisée pour lire un fichier CSV ?",
+        "choix": [
+            "A. pd.read_csv()",
+            "B. pd.load_csv()",
+            "C. pd.open_csv()",
+            "D. pd.import_csv()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment filtre-t-on les lignes d'un DataFrame selon une condition ?",
+        "choix": [
+            "A. df[df['column'] > value]",
+            "B. df.filter('column' > value)",
+            "C. df.where('column' > value)",
+            "D. df.condition('column' > value)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour réinitialiser les index d'un DataFrame ?",
+        "choix": [
+            "A. reset_index()",
+            "B. reindex()",
+            "C. reset()",
+            "D. index_reset()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment trie-t-on les lignes d'un DataFrame selon une colonne ?",
+        "choix": [
+            "A. df.sort_values('column')",
+            "B. df.order_by('column')",
+            "C. df.sort('column')",
+            "D. df.arrange('column')"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment remplit-on les valeurs manquantes dans un DataFrame Pandas ?",
+        "choix": [
+            "A. fillna(value)",
+            "B. replace_na(value)",
+            "C. na_fill(value)",
+            "D. replace_missing(value)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour supprimer les doublons dans un DataFrame ?",
+        "choix": [
+            "A. drop_duplicates()",
+            "B. remove_duplicates()",
+            "C. unique()",
+            "D. deduplicate()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment ajoute-t-on une nouvelle colonne à un DataFrame ?",
+        "choix": [
+            "A. df['new_column'] = values",
+            "B. df.add_column('new_column', values)",
+            "C. df.insert_column('new_column', values)",
+            "D. df.new_column = values"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode est utilisée pour calculer la moyenne d'une colonne dans un DataFrame ?",
+        "choix": [
+            "A. df['column'].mean()",
+            "B. df['column'].average()",
+            "C. df['column'].median()",
+            "D. df['column'].sum() / len(df)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment fusionne-t-on deux DataFrames sur une colonne commune ?",
+        "choix": [
+            "A. pd.merge(df1, df2, on='column')",
+            "B. pd.concat(df1, df2, on='column')",
+            "C. pd.join(df1, df2, on='column')",
+            "D. df1.merge(df2, column='column')"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour regrouper les données par une colonne spécifique ?",
+        "choix": [
+            "A. groupby()",
+            "B. group()",
+            "C. categorize()",
+            "D. aggregate()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment vérifie-t-on s'il existe des valeurs manquantes dans un DataFrame ?",
+        "choix": [
+            "A. df.isnull()",
+            "B. df.hasnull()",
+            "C. df.check_na()",
+            "D. df.missing()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode est utilisée pour obtenir les noms des colonnes d'un DataFrame ?",
+        "choix": [
+            "A. df.columns",
+            "B. df.colnames()",
+            "C. df.get_columns()",
+            "D. df.column_names()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment divise-t-on une liste en deux parties égales en Python ?",
+        "choix": [
+            "A. list.split(2)",
+            "B. [list[:len(list)//2], list[len(list)//2:]]",
+            "C. split(list, 2)",
+            "D. list.partition(2)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle méthode permet de supprimer un élément d'une liste en Python ?",
+        "choix": [
+            "A. list.remove(value)",
+            "B. list.pop(index)",
+            "C. del list[index]",
+            "D. Toutes les réponses ci-dessus"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment ajoute-t-on un élément à une liste en Python ?",
+        "choix": [
+            "A. list.add(value)",
+            "B. list.append(value)",
+            "C. list.insert(index, value)",
+            "D. B et C"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment trouve-t-on l'indice d'un élément dans une liste en Python ?",
+        "choix": [
+            "A. list.index(value)",
+            "B. list.find(value)",
+            "C. index(list, value)",
+            "D. list.search(value)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment divise-t-on un tableau NumPy en trois parties égales ?",
+        "choix": [
+            "A. np.split(array, 3)",
+            "B. np.array_split(array, 3)",
+            "C. np.divide(array, 3)",
+            "D. np.split_into(array, 3)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment sélectionne-t-on les éléments pairs d'un tableau NumPy ?",
+        "choix": [
+            "A. array[array % 2 == 0]",
+            "B. np.select(array % 2 == 0)",
+            "C. np.filter(array, even=True)",
+            "D. array.filter(even=True)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode NumPy est utilisée pour fusionner deux tableaux horizontalement ?",
+        "choix": [
+            "A. np.hstack((array1, array2))",
+            "B. np.vstack((array1, array2))",
+            "C. np.concatenate((array1, array2), axis=0)",
+            "D. np.merge((array1, array2))"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment tri-t-on un tableau NumPy dans l'ordre croissant ?",
+        "choix": [
+            "A. np.sort(array)",
+            "B. array.sort()",
+            "C. sorted(array)",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle fonction NumPy est utilisée pour calculer la somme cumulative d'un tableau ?",
+        "choix": [
+            "A. np.cumsum(array)",
+            "B. np.sum(array, cumulative=True)",
+            "C. array.cumsum()",
+            "D. A et C"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Comment crée-t-on un tableau NumPy en divisant les valeurs entre 0 et 10 en 5 intervalles égaux ?",
+        "choix": [
+            "A. np.linspace(0, 10, 5)",
+            "B. np.arange(0, 10, 2)",
+            "C. np.divide(0, 10, 5)",
+            "D. np.range(0, 10, 5)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment divise-t-on un DataFrame Pandas en deux parties égales ?",
+        "choix": [
+            "A. pd.split(df, 2)",
+            "B. [df.iloc[:len(df)//2], df.iloc[len(df)//2:]]",
+            "C. df.partition(2)",
+            "D. df.divide(2)"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Comment sélectionne-t-on une ligne spécifique dans un DataFrame Pandas ?",
+        "choix": [
+            "A. df.iloc[index]",
+            "B. df.loc[index]",
+            "C. df[index]",
+            "D. A et B"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle fonction Pandas est utilisée pour diviser un DataFrame en groupes selon une colonne ?",
+        "choix": [
+            "A. df.groupby('column')",
+            "B. df.split('column')",
+            "C. df.divide('column')",
+            "D. df.partition('column')"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment extrait-on uniquement les colonnes numériques d'un DataFrame ?",
+        "choix": [
+            "A. df.select_dtypes(include=['number'])",
+            "B. df.filter(numeric=True)",
+            "C. df.extract(numeric=True)",
+            "D. df.columns(dtype='number')"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment divise-t-on un DataFrame en lignes où une colonne spécifique respecte une condition ?",
+        "choix": [
+            "A. df[df['column'] > value]",
+            "B. df.loc['column'] > value",
+            "C. df.filter('column', condition=value)",
+            "D. df.select('column', condition=value)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment fusionne-t-on deux DataFrames horizontalement en Pandas ?",
+        "choix": [
+            "A. pd.concat([df1, df2], axis=1)",
+            "B. pd.merge([df1, df2], axis=1)",
+            "C. df1.append(df2, axis=1)",
+            "D. pd.join([df1, df2], axis=1)"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment trie-t-on un DataFrame selon plusieurs colonnes en Pandas ?",
+        "choix": [
+            "A. df.sort_values(['col1', 'col2'])",
+            "B. df.sort(['col1', 'col2'])",
+            "C. df.order_by(['col1', 'col2'])",
+            "D. df.arrange(['col1', 'col2'])"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle méthode Pandas est utilisée pour normaliser les données d'une colonne ?",
+        "choix": [
+            "A. df['column'] / df['column'].max()",
+            "B. normalize(df['column'])",
+            "C. df['column'].normalize()",
+            "D. df['column'].scale()"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment ajoute-t-on une nouvelle colonne basée sur une opération entre deux colonnes existantes ?",
+        "choix": [
+            "A. df['new_column'] = df['col1'] + df['col2']",
+            "B. df.add_column('new_column', df['col1'] + df['col2'])",
+            "C. df.create_column('new_column', df['col1'] + df['col2'])",
+            "D. df.new_column = df['col1'] + df['col2']"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Comment remplit-on les valeurs manquantes dans un DataFrame avec la moyenne d'une colonne ?",
+        "choix": [
+            "A. df['column'].fillna(df['column'].mean(), inplace=True)",
+            "B. df['column'].replace_na(mean=True)",
+            "C. df['column'].replace_missing(df['column'].mean())",
+            "D. df['column'].fill(df['column'].mean())"
+        ],
+        "reponse": "A"
+    }
+]

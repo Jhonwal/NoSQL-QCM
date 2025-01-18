@@ -36,6 +36,22 @@ const App = () => {
       icon: Database,
       file: 'nosql_qcm.json',
       gradient: 'from-green-500 to-teal-500'
+    },
+    {
+      id: 'ml2',
+      title: 'Machine Learning 2',
+      description: 'Test your knowledge in Machine Learning concepts and applications 2',
+      icon: Brain,
+      file: 'ml2_qcm.json',
+      gradient: 'from-blue-500 to-purple-500'
+    },
+    {
+      id: 'nosql2',
+      title: 'NoSQL Databases 2',
+      description: 'Challenge yourself with NoSQL database concepts and best practices 2',
+      icon: Database,
+      file: 'nosql2_qcm.json',
+      gradient: 'from-green-500 to-teal-500'
     }
   ];
 
