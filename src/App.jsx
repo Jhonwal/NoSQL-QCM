@@ -30,11 +30,27 @@ const App = () => {
       gradient: 'from-blue-500 to-purple-500'
     },
     {
+      id: 'ml2',
+      title: 'Machine Learning 2',
+      description: 'Test your advanced knowledge in Machine Learning concepts and applications',
+      icon: Brain,
+      file: 'ml2_qcm.json',
+      gradient: 'from-blue-500 to-purple-500'
+    },
+    {
       id: 'nosql',
       title: 'NoSQL Databases 1',
       description: 'Challenge yourself with NoSQL database concepts and best practices 1',
       icon: Database,
       file: 'nosql_qcm.json',
+      gradient: 'from-green-500 to-teal-500'
+    },
+    {
+      id: 'nosql2',
+      title: 'NoSQL Databases 2',
+      description: 'Challenge yourself with advanced NoSQL database concepts and use cases',
+      icon: Database,
+      file: 'nosql2_qcm.json',
       gradient: 'from-green-500 to-teal-500'
     },
     {
@@ -44,22 +60,6 @@ const App = () => {
       icon: DatabaseZap,
       file: 'bigdata1_qcm.json',
       gradient: 'from-red-500 to-orange-500'
-    },
-    {
-      id: 'ml2',
-      title: 'Machine Learning 2',
-      description: 'Test your advanced knowledge in Machine Learning concepts and applications',
-      icon: Brain,
-      file: 'ml2_qcm.json',
-      gradient: 'from-blue-500 to-purple-500'
-    },
-    {
-      id: 'nosql2',
-      title: 'NoSQL Databases 2',
-      description: 'Challenge yourself with advanced NoSQL database concepts and use cases',
-      icon: Database,
-      file: 'nosql2_qcm.json',
-      gradient: 'from-green-500 to-teal-500'
     },
     {
       id: 'bigdata2',
