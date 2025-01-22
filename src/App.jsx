@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Card, CardHeader, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
-import { Loader2, Clock, Check, X, Brain, Database } from 'lucide-react';
+import { Loader2, Clock, Check, X, Brain, Database, DatabaseZap } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
@@ -40,7 +40,7 @@ const App = () => {
     {
       id: 'ml2',
       title: 'Machine Learning 2',
-      description: 'Test your knowledge in Machine Learning concepts and applications 2',
+      description: 'Test your advanced knowledge in Machine Learning concepts and applications',
       icon: Brain,
       file: 'ml2_qcm.json',
       gradient: 'from-blue-500 to-purple-500'
@@ -48,12 +48,29 @@ const App = () => {
     {
       id: 'nosql2',
       title: 'NoSQL Databases 2',
-      description: 'Challenge yourself with NoSQL database concepts and best practices 2',
+      description: 'Challenge yourself with advanced NoSQL database concepts and use cases',
       icon: Database,
       file: 'nosql2_qcm.json',
       gradient: 'from-green-500 to-teal-500'
-    }
+    },
+    {
+      id: 'bigdata1',
+      title: 'Big Data 1',
+      description: 'Explore the fundamentals of Big Data concepts and tools',
+      icon: DatabaseZap,
+      file: 'bigdata1_qcm.json',
+      gradient: 'from-red-500 to-orange-500'
+    },
+    {
+      id: 'bigdata2',
+      title: 'Big Data 2',
+      description: 'Deep dive into advanced Big Data techniques and applications',
+      icon: DatabaseZap,
+      file: 'bigdata2_qcm.json',
+      gradient: 'from-red-500 to-orange-500'
+    },
   ];
+  
 
   const shuffleQuestions = (array) => {
     for (let i = array.length - 1; i > 0; i--) {

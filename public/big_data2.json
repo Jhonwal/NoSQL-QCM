@@ -1,0 +1,572 @@
+[
+    {
+        "question": "Quel est le rôle de HDFS dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Gérer les ressources et planifier les tâches",
+            "B. Stocker de grandes quantités de données de manière distribuée",
+            "C. Exécuter des tâches MapReduce",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de YARN dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Stocker les données",
+            "B. Gérer les ressources et planifier les tâches",
+            "C. Exécuter des tâches MapReduce",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle de MapReduce dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Stocker les données",
+            "B. Gérer les ressources",
+            "C. Traiter de grandes quantités de données en parallèle",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de HBase dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Stocker des données structurées",
+            "B. Fournir un accès rapide et aléatoire aux données",
+            "C. Gérer les ressources",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle est la principale différence entre une base de données relationnelle et HBase ?",
+        "choix": [
+            "A. HBase est orienté colonnes, tandis qu'une base de données relationnelle est orientée lignes",
+            "B. HBase est plus lent pour les accès aléatoires",
+            "C. HBase ne supporte pas les requêtes SQL",
+            "D. HBase ne peut pas stocker de grandes quantités de données"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est un cas d'utilisation typique d'HBase dans le Big Data ?",
+        "choix": [
+            "A. Stockage de fichiers volumineux",
+            "B. Analyse de données en temps réel",
+            "C. Gestion des ressources",
+            "D. Synchronisation des composants Hadoop"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est un autre cas d'utilisation typique d'HBase dans le Big Data ?",
+        "choix": [
+            "A. Stockage de fichiers volumineux",
+            "B. Analyse de données en temps réel",
+            "C. Gestion des ressources",
+            "D. Synchronisation des composants Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande permet de créer une table HBase ?",
+        "choix": [
+            "A. CREATE TABLE",
+            "B. CREATE",
+            "C. ADD TABLE",
+            "D. NEW TABLE"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande permet d'insérer des données dans une table HBase ?",
+        "choix": [
+            "A. INSERT",
+            "B. PUT",
+            "C. ADD",
+            "D. UPDATE"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle commande permet d'afficher toutes les données d'une table HBase ?",
+        "choix": [
+            "A. SHOW",
+            "B. SCAN",
+            "C. DISPLAY",
+            "D. LIST"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle de la fonction Map dans MapReduce ?",
+        "choix": [
+            "A. Agréger les résultats",
+            "B. Transformer les données en paires clé-valeur",
+            "C. Stocker les données",
+            "D. Synchroniser les tâches"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de la fonction Reduce dans MapReduce ?",
+        "choix": [
+            "A. Diviser les données en fragments",
+            "B. Agréger les valeurs par clé",
+            "C. Stocker les données",
+            "D. Synchroniser les tâches"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est l'avantage du format ORC par rapport à Parquet dans Hadoop ?",
+        "choix": [
+            "A. Meilleure compression",
+            "B. Meilleure performance pour les requêtes SQL",
+            "C. Meilleure prise en charge des types complexes",
+            "D. Meilleure compatibilité avec HBase"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Pourquoi HBase est-il mieux adapté que Hive pour des applications nécessitant des écritures fréquentes ?",
+        "choix": [
+            "A. HBase est plus rapide pour les lectures",
+            "B. HBase supporte les écritures aléatoires et fréquentes",
+            "C. Hive ne supporte pas les écritures",
+            "D. Hive est plus lent pour les requêtes SQL"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle est une différence entre HBase et Hive ?",
+        "choix": [
+            "A. HBase est orienté colonnes, Hive est orienté lignes",
+            "B. HBase supporte les requêtes SQL, Hive ne le supporte pas",
+            "C. HBase est plus lent pour les accès aléatoires",
+            "D. Hive est plus adapté pour les écritures fréquentes"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est une autre différence entre HBase et Hive ?",
+        "choix": [
+            "A. HBase est orienté colonnes, Hive est orienté lignes",
+            "B. HBase supporte les requêtes SQL, Hive ne le supporte pas",
+            "C. HBase est plus lent pour les accès aléatoires",
+            "D. Hive est plus adapté pour les écritures fréquentes"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande permet de créer une table Hive ?",
+        "choix": [
+            "A. CREATE TABLE",
+            "B. CREATE",
+            "C. ADD TABLE",
+            "D. NEW TABLE"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle commande permet de charger des données dans une table Hive à partir d'un fichier CSV ?",
+        "choix": [
+            "A. LOAD DATA",
+            "B. INSERT DATA",
+            "C. ADD DATA",
+            "D. IMPORT DATA"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle commande HiveQL permet de sélectionner les employés ayant un salaire supérieur à 3500 ?",
+        "choix": [
+            "A. SELECT * FROM employees WHERE salary > 3500",
+            "B. SELECT * FROM employees WHERE salary >= 3500",
+            "C. SELECT * FROM employees WHERE salary < 3500",
+            "D. SELECT * FROM employees WHERE salary <= 3500"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande HiveQL permet de compter le nombre d'employés par département ?",
+        "choix": [
+            "A. SELECT COUNT(*) FROM employees GROUP BY department",
+            "B. SELECT COUNT(*) FROM employees ORDER BY department",
+            "C. SELECT COUNT(*) FROM employees WHERE department",
+            "D. SELECT COUNT(*) FROM employees HAVING department"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle du ResourceManager dans YARN ?",
+        "choix": [
+            "A. Gérer les ressources globales",
+            "B. Exécuter les tâches sur les nœuds",
+            "C. Stocker les données",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle du NodeManager dans YARN ?",
+        "choix": [
+            "A. Gérer les ressources globales",
+            "B. Exécuter les tâches sur les nœuds",
+            "C. Stocker les données",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est un avantage de YARN par rapport à Hadoop 1.x ?",
+        "choix": [
+            "A. Meilleure gestion des ressources",
+            "B. Meilleure performance pour les requêtes SQL",
+            "C. Meilleure prise en charge des types complexes",
+            "D. Meilleure compatibilité avec HBase"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est un autre avantage de YARN par rapport à Hadoop 1.x ?",
+        "choix": [
+            "A. Meilleure gestion des ressources",
+            "B. Meilleure performance pour les requêtes SQL",
+            "C. Meilleure prise en charge des types complexes",
+            "D. Meilleure compatibilité avec HBase"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est un type de scheduler disponible dans YARN ?",
+        "choix": [
+            "A. FIFO Scheduler",
+            "B. Round Robin Scheduler",
+            "C. Priority Scheduler",
+            "D. Random Scheduler"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est un autre type de scheduler disponible dans YARN ?",
+        "choix": [
+            "A. FIFO Scheduler",
+            "B. Round Robin Scheduler",
+            "C. Priority Scheduler",
+            "D. Random Scheduler"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est un cas d'utilisation typique du FIFO Scheduler dans YARN ?",
+        "choix": [
+            "A. Tâches courtes et prioritaires",
+            "B. Tâches longues et non prioritaires",
+            "C. Tâches interactives",
+            "D. Tâches en temps réel"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est un cas d'utilisation typique du Capacity Scheduler dans YARN ?",
+        "choix": [
+            "A. Tâches courtes et prioritaires",
+            "B. Tâches longues et non prioritaires",
+            "C. Tâches interactives",
+            "D. Tâches en temps réel"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est un cas d'utilisation typique du Fair Scheduler dans YARN ?",
+        "choix": [
+            "A. Tâches courtes et prioritaires",
+            "B. Tâches longues et non prioritaires",
+            "C. Tâches interactives",
+            "D. Tâches en temps réel"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle principal de HDFS dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Gérer les ressources du cluster",
+            "B. Stocker de grandes quantités de données de manière distribuée",
+            "C. Exécuter des tâches MapReduce",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle principal de YARN dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Stocker les données",
+            "B. Gérer les ressources et planifier les tâches",
+            "C. Exécuter des tâches MapReduce",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle principal de MapReduce dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Stocker les données",
+            "B. Gérer les ressources",
+            "C. Traiter de grandes quantités de données en parallèle",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle principal de HBase dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Stocker des données structurées",
+            "B. Fournir un accès rapide et aléatoire aux données",
+            "C. Gérer les ressources",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle est la principale différence entre une base de données relationnelle et HBase ?",
+        "choix": [
+            "A. HBase est orienté colonnes, tandis qu'une base de données relationnelle est orientée lignes",
+            "B. HBase est plus lent pour les accès aléatoires",
+            "C. HBase ne supporte pas les requêtes SQL",
+            "D. HBase ne peut pas stocker de grandes quantités de données"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est un cas d'utilisation typique d'HBase dans le Big Data ?",
+        "choix": [
+            "A. Stockage de fichiers volumineux",
+            "B. Analyse de données en temps réel",
+            "C. Gestion des ressources",
+            "D. Synchronisation des composants Hadoop"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est un autre cas d'utilisation typique d'HBase dans le Big Data ?",
+        "choix": [
+            "A. Stockage de fichiers volumineux",
+            "B. Analyse de données en temps réel",
+            "C. Gestion des ressources",
+            "D. Synchronisation des composants Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande permet de créer une table HBase ?",
+        "choix": [
+            "A. CREATE TABLE",
+            "B. CREATE",
+            "C. ADD TABLE",
+            "D. NEW TABLE"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande permet d'insérer des données dans une table HBase ?",
+        "choix": [
+            "A. INSERT",
+            "B. PUT",
+            "C. ADD",
+            "D. UPDATE"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle commande permet d'afficher toutes les données d'une table HBase ?",
+        "choix": [
+            "A. SHOW",
+            "B. SCAN",
+            "C. DISPLAY",
+            "D. LIST"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle de la fonction Map dans MapReduce ?",
+        "choix": [
+            "A. Agréger les résultats",
+            "B. Transformer les données en paires clé-valeur",
+            "C. Stocker les données",
+            "D. Synchroniser les tâches"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de la fonction Reduce dans MapReduce ?",
+        "choix": [
+            "A. Diviser les données en fragments",
+            "B. Agréger les valeurs par clé",
+            "C. Stocker les données",
+            "D. Synchroniser les tâches"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est l'avantage du format ORC par rapport à Parquet dans Hadoop ?",
+        "choix": [
+            "A. Meilleure compression",
+            "B. Meilleure performance pour les requêtes SQL",
+            "C. Meilleure prise en charge des types complexes",
+            "D. Meilleure compatibilité avec HBase"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Pourquoi HBase est-il mieux adapté que Hive pour des applications nécessitant des écritures fréquentes ?",
+        "choix": [
+            "A. HBase est plus rapide pour les lectures",
+            "B. HBase supporte les écritures aléatoires et fréquentes",
+            "C. Hive ne supporte pas les écritures",
+            "D. Hive est plus lent pour les requêtes SQL"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quelle est une différence entre HBase et Hive ?",
+        "choix": [
+            "A. HBase est orienté colonnes, Hive est orienté lignes",
+            "B. HBase supporte les requêtes SQL, Hive ne le supporte pas",
+            "C. HBase est plus lent pour les accès aléatoires",
+            "D. Hive est plus adapté pour les écritures fréquentes"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle est une autre différence entre HBase et Hive ?",
+        "choix": [
+            "A. HBase est orienté colonnes, Hive est orienté lignes",
+            "B. HBase supporte les requêtes SQL, Hive ne le supporte pas",
+            "C. HBase est plus lent pour les accès aléatoires",
+            "D. Hive est plus adapté pour les écritures fréquentes"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande permet de créer une table Hive ?",
+        "choix": [
+            "A. CREATE TABLE",
+            "B. CREATE",
+            "C. ADD TABLE",
+            "D. NEW TABLE"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quelle commande permet de charger des données dans une table Hive à partir d'un fichier CSV ?",
+        "choix": [
+            "A. LOAD DATA",
+            "B. INSERT DATA",
+            "C. ADD DATA",
+            "D. IMPORT DATA"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quelle commande HiveQL permet de sélectionner les employés ayant un salaire supérieur à 3500 ?",
+        "choix": [
+            "A. SELECT * FROM employees WHERE salary > 3500",
+            "B. SELECT * FROM employees WHERE salary >= 3500",
+            "C. SELECT * FROM employees WHERE salary < 3500",
+            "D. SELECT * FROM employees WHERE salary <= 3500"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quelle commande HiveQL permet de compter le nombre d'employés par département ?",
+        "choix": [
+            "A. SELECT COUNT(*) FROM employees GROUP BY department",
+            "B. SELECT COUNT(*) FROM employees ORDER BY department",
+            "C. SELECT COUNT(*) FROM employees WHERE department",
+            "D. SELECT COUNT(*) FROM employees HAVING department"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le format de stockage optimisé pour l'analyse des données dans Hive ?",
+        "choix": [
+            "A. CSV",
+            "B. JSON",
+            "C. ORC",
+            "D. XML"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle du Metastore dans Hive ?",
+        "choix": [
+            "A. Stocker les données brutes",
+            "B. Gérer les métadonnées des tables",
+            "C. Exécuter les requêtes SQL",
+            "D. Synchroniser les clusters Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le langage utilisé par Hive pour interroger les données ?",
+        "choix": [
+            "A. Pig Latin",
+            "B. HiveQL",
+            "C. SQL",
+            "D. Java"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est l'avantage de Hive par rapport à MapReduce ?",
+        "choix": [
+            "A. Complexité accrue",
+            "B. Facilité d'utilisation avec des requêtes SQL-like",
+            "C. Limitation des volumes de données",
+            "D. Traitement en temps réel"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande CREATE TABLE dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Créer des tables dans Hive",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande INSERT INTO dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Insérer des données dans une table",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande LOAD DATA dans Hive ?",
+        "choix": [
+            "A. Charger des fichiers dans les tables Hive",
+            "B. Insérer des données dans une table",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de la commande ALTER TABLE dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Modifier la structure d'une table",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    }
+]

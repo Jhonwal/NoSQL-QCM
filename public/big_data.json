@@ -1,0 +1,513 @@
+[
+    {
+        "question": "Quel est le principal défi du Big Data en termes de stockage ?",
+        "choix": [
+            "A. Capacité de stockage limitée des serveurs",
+            "B. Vitesse de traitement élevée",
+            "C. Variété des données",
+            "D. Sécurité des données"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est l'impact de la vélocité dans le Big Data ?",
+        "choix": [
+            "A. La vitesse à laquelle les données sont générées et traitées",
+            "B. La quantité de données produites",
+            "C. La diversité des formats de données",
+            "D. La qualité des données"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est l'un des avantages du Big Data pour les entreprises ?",
+        "choix": [
+            "A. Limitation des volumes de données",
+            "B. Prise de décision éclairée basée sur des données",
+            "C. Réduction de la variété des données",
+            "D. Diminution de la vitesse de traitement"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de HDFS dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Gérer les ressources du cluster",
+            "B. Stocker de grandes quantités de données de manière distribuée",
+            "C. Exécuter des tâches MapReduce",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le composant de Hadoop responsable de la gestion des métadonnées dans HDFS ?",
+        "choix": [
+            "A. DataNode",
+            "B. NameNode",
+            "C. YARN",
+            "D. ZooKeeper"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle des DataNodes dans HDFS ?",
+        "choix": [
+            "A. Gérer les métadonnées",
+            "B. Stocker les blocs de données",
+            "C. Planifier les tâches MapReduce",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est l'avantage de la réplication des blocs dans HDFS ?",
+        "choix": [
+            "A. Réduire la capacité de stockage",
+            "B. Assurer la tolérance aux pannes",
+            "C. Limiter la vitesse de traitement",
+            "D. Centraliser les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le modèle de traitement de données utilisé par Hadoop pour traiter de grandes quantités de données ?",
+        "choix": [
+            "A. Spark",
+            "B. MapReduce",
+            "C. Hive",
+            "D. HBase"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la fonction Map dans MapReduce ?",
+        "choix": [
+            "A. Agréger les résultats",
+            "B. Transformer les données en paires clé-valeur",
+            "C. Stocker les données",
+            "D. Synchroniser les tâches"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la fonction Reduce dans MapReduce ?",
+        "choix": [
+            "A. Diviser les données en fragments",
+            "B. Agréger les valeurs par clé",
+            "C. Stocker les données",
+            "D. Synchroniser les tâches"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est l'avantage de YARN par rapport à MapReduce v1 ?",
+        "choix": [
+            "A. Gestion centralisée des ressources",
+            "B. Flexibilité et scalabilité améliorées",
+            "C. Limitation des tâches simultanées",
+            "D. Utilisation exclusive de MapReduce"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le composant principal de YARN qui gère les ressources globales ?",
+        "choix": [
+            "A. NodeManager",
+            "B. ApplicationMaster",
+            "C. ResourceManager",
+            "D. JobTracker"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle du NodeManager dans YARN ?",
+        "choix": [
+            "A. Gérer les ressources globales",
+            "B. Superviser les ressources locales et exécuter les tâches",
+            "C. Planifier les tâches MapReduce",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de l'ApplicationMaster dans YARN ?",
+        "choix": [
+            "A. Gérer les ressources globales",
+            "B. Superviser l'exécution des applications",
+            "C. Stocker les données",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est l'avantage de l'utilisation de conteneurs dans YARN ?",
+        "choix": [
+            "A. Limiter les ressources allouées",
+            "B. Allouer dynamiquement des ressources aux applications",
+            "C. Centraliser les données",
+            "D. Réduire la vitesse de traitement"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande SELECT dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Extraire des données depuis une table",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est l'avantage de l'utilisation de Hive pour les analystes ?",
+        "choix": [
+            "A. Complexité accrue",
+            "B. Facilité d'utilisation avec des requêtes SQL-like",
+            "C. Limitation des volumes de données",
+            "D. Traitement en temps réel"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande GROUP BY dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Grouper les données selon des critères",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande JOIN dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Joindre plusieurs ensembles de données",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande WHERE dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Filtrer les données selon une condition",
+            "C. Grouper les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande ORDER BY dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Trier les données selon un critère",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    }
+    ,
+    {
+        "question": "Quel est le langage de flux de données utilisé par Pig ?",
+        "choix": [
+            "A. HiveQL",
+            "B. Pig Latin",
+            "C. SQL",
+            "D. Java"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est l'avantage de Pig par rapport à MapReduce ?",
+        "choix": [
+            "A. Complexité accrue",
+            "B. Simplification des pipelines de traitement",
+            "C. Limitation des volumes de données",
+            "D. Traitement en temps réel"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande LOAD dans Pig Latin ?",
+        "choix": [
+            "A. Filtrer les données",
+            "B. Charger les données",
+            "C. Agréger les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande FILTER dans Pig Latin ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Filtrer les données selon une condition",
+            "C. Agréger les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande GROUP dans Pig Latin ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Filtrer les données",
+            "C. Grouper les données selon des critères",
+            "D. Stocker les données"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est l'avantage de Pig pour les données non structurées ?",
+        "choix": [
+            "A. Limitation des formats de données",
+            "B. Flexibilité pour traiter des données JSON, logs, etc.",
+            "C. Complexité accrue",
+            "D. Traitement en temps réel"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande DUMP dans Pig Latin ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Filtrer les données",
+            "C. Afficher les résultats",
+            "D. Stocker les données"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle de la commande STORE dans Pig Latin ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Filtrer les données",
+            "C. Afficher les résultats",
+            "D. Stocker les résultats dans HDFS"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle de la commande JOIN dans Pig Latin ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Joindre plusieurs ensembles de données",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande FOREACH dans Pig Latin ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Transformer chaque ligne de données",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est l'un des défis du Big Data en termes de variété des données ?",
+        "choix": [
+            "A. Gérer des données structurées uniquement",
+            "B. Intégrer des données provenant de sources et formats variés",
+            "C. Limiter la vitesse de traitement des données",
+            "D. Réduire la quantité de données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est l'impact de la véracité dans le Big Data ?",
+        "choix": [
+            "A. La quantité de données produites",
+            "B. La qualité et la fiabilité des données",
+            "C. La vitesse de génération des données",
+            "D. La diversité des formats de données"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est l'un des avantages du Big Data pour les entreprises en termes de compétitivité ?",
+        "choix": [
+            "A. Limitation des volumes de données",
+            "B. Amélioration des produits et services grâce à des décisions informées",
+            "C. Réduction de la variété des données",
+            "D. Diminution de la vitesse de traitement"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle de YARN dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Stocker de grandes quantités de données",
+            "B. Gérer les ressources et planifier les tâches",
+            "C. Exécuter des tâches MapReduce",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le composant de Hadoop responsable de la coordination des serveurs régionaux dans HBase ?",
+        "choix": [
+            "A. Region Server",
+            "B. Master",
+            "C. ZooKeeper",
+            "D. DataNode"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle de ZooKeeper dans l'écosystème Hadoop ?",
+        "choix": [
+            "A. Stocker les blocs de données",
+            "B. Fournir un service de coordination et de synchronisation",
+            "C. Exécuter des tâches MapReduce",
+            "D. Gérer les ressources globales"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est l'avantage de l'utilisation de HBase pour les accès rapides aux données ?",
+        "choix": [
+            "A. Stockage centralisé",
+            "B. Accès aléatoire et rapide aux données",
+            "C. Limitation de la capacité de stockage",
+            "D. Traitement séquentiel des données"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le modèle de stockage des données dans HBase ?",
+        "choix": [
+            "A. Modèle relationnel",
+            "B. Modèle orienté colonnes",
+            "C. Modèle orienté documents",
+            "D. Modèle orienté graphes"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle de la RowKey dans HBase ?",
+        "choix": [
+            "A. Identifier de manière unique une ligne dans une table",
+            "B. Stocker les métadonnées",
+            "C. Exécuter des tâches MapReduce",
+            "D. Synchroniser les composants Hadoop"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est l'avantage de l'utilisation de Hive pour les analystes non techniques ?",
+        "choix": [
+            "A. Complexité accrue",
+            "B. Facilité d'utilisation avec des requêtes SQL-like",
+            "C. Limitation des volumes de données",
+            "D. Traitement en temps réel"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de la commande CREATE DATABASE dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Créer une base de données dans Hive",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle de la commande DROP TABLE dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Supprimer une table dans Hive",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande SHOW TABLES dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Lister les tables disponibles dans Hive",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle de la commande DESCRIBE dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Afficher la structure d'une table",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de la commande COUNT dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Compter le nombre d'enregistrements dans une table",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle de la commande SUM dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Calculer la somme des valeurs d'une colonne",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "D"
+    },
+    {
+        "question": "Quel est le rôle de la commande AVG dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Calculer la moyenne des valeurs d'une colonne",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "B"
+    },
+    {
+        "question": "Quel est le rôle de la commande MAX dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Trouver la valeur maximale d'une colonne",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "A"
+    },
+    {
+        "question": "Quel est le rôle de la commande MIN dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Trouver la valeur minimale d'une colonne",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "C"
+    },
+    {
+        "question": "Quel est le rôle de la commande DISTINCT dans Hive ?",
+        "choix": [
+            "A. Charger les données",
+            "B. Retourner des valeurs uniques dans une colonne",
+            "C. Filtrer les données",
+            "D. Stocker les données"
+        ],
+        "reponse": "D"
+    }
+]
