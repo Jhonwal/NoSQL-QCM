@@ -38,6 +38,14 @@ const App = () => {
       gradient: 'from-green-500 to-teal-500'
     },
     {
+      id: 'bigdata1',
+      title: 'Big Data 1',
+      description: 'Explore the fundamentals of Big Data concepts and tools',
+      icon: DatabaseZap,
+      file: 'bigdata1_qcm.json',
+      gradient: 'from-red-500 to-orange-500'
+    },
+    {
       id: 'ml2',
       title: 'Machine Learning 2',
       description: 'Test your advanced knowledge in Machine Learning concepts and applications',
@@ -52,14 +60,6 @@ const App = () => {
       icon: Database,
       file: 'nosql2_qcm.json',
       gradient: 'from-green-500 to-teal-500'
-    },
-    {
-      id: 'bigdata1',
-      title: 'Big Data 1',
-      description: 'Explore the fundamentals of Big Data concepts and tools',
-      icon: DatabaseZap,
-      file: 'bigdata1_qcm.json',
-      gradient: 'from-red-500 to-orange-500'
     },
     {
       id: 'bigdata2',
