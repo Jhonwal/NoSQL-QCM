@@ -223,13 +223,13 @@ const App = () => {
   if (error) {
     return (
       <div className="flex items-center justify-center w-screen h-screen">
-        <Card className="w-full max-w-2xl mx-auto bg-red-50">
+        <Card className="w-full max-w-2xl mx-auto bg-yellow-50">
           <CardContent className="p-6 text-center">
-            <h2 className="text-xl font-bold text-red-600 mb-2">Erreur</h2>
-            <p className="text-red-500">{error}</p>
+            <h2 className="text-xl font-bold text-yellow-600 mb-2">Maintenance en cours</h2>
+            <p className="text-yellow-700">Cette partie du quiz est actuellement en maintenance. Veuillez réessayer plus tard.</p>
             <Button 
               onClick={resetQuiz}
-              className="mt-4 bg-red-600 hover:bg-red-700"
+              className="mt-4 bg-yellow-600 hover:bg-yellow-700 text-white"
             >
               Retour à la sélection
             </Button>
